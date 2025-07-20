@@ -21,7 +21,7 @@ const category = categories.find(
   <div
     class={cx(
       "relative overflow-hidden transition-all bg-gray-100 rounded-md dark:bg-gray-800   hover:scale-105",
-      aspect === "landscape" ? "aspect-video" : "aspect-square"
+      aspect === "landscape" ? "aspect-[4/3]" : "aspect-[3/2]"
     )}>
     <a href={"/blog/" + post.slug}>
       {
@@ -61,7 +61,7 @@ const category = categories.find(
     </a>
   </h2>
 
-  <div class="hidden">
+  <div>
     { 
        post.data?.excerpt && ( 
          <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 line-clamp-3"> 
@@ -90,9 +90,8 @@ const category = categories.find(
       </div>
       <span class="text-sm">{author?.name}</span>
     </div>
-    <span class="text-xs text-gray-300 dark:text-gray-600"> &bull;</span>
-    <time class="text-sm" datetime={post.data?.publishDate}> 
-       {getFormattedDate(post.data?.publishDate)}
+    <span class="text-xs text-gray-300 dark:text-gray-600"></span>
+
     </time>
   </div>
 </div>
