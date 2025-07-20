@@ -18,8 +18,8 @@ const { title, desc, ogimage = "/opengraph.jpg" } = Astro.props;
 const resolvedOGImage = checkImageUrl(ogimage, Astro.site);
 
 const makeTitle = title
-  ? title + " | " + "Stablo"
-  : "Stablo — Free Blog Website Template built with Astro & MDX";
+  ? title + " | " + "Digital Marketing Tools"
+  : "Digital Marketing Tools, the new Blog to expand your skills.";
 ---
 
 <!DOCTYPE html>
@@ -32,7 +32,7 @@ const makeTitle = title
     <SEO
       title={makeTitle}
       description={desc ||
-        "Stablo is a Blog Starter Template built with Astro & MDX."}
+        "Digital Marketing Tools, the new Blog to expand your skills."}
       canonical={canonicalURL}
       twitter={{
         creator: "@/surjithctly",
@@ -43,11 +43,11 @@ const makeTitle = title
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `Stablo - Blog Starter Template for Astro`,
+          title: `Digital Marketing Tools`,
           image: resolvedOGImage,
         },
         image: {
-          alt: "Stablo Screenshot",
+          alt: "Digital Marketing Tools",
         },
       }}
     />
