@@ -1,11 +1,11 @@
 ---
 title: "14 Architectural Design Ideas for a Spacious Interior"
 excerpt: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
-publishDate: "2024-05-30T11:39:36.050Z"
-image: "../../assets/blog/blog3.avif"
-category: "lifestyle"
-author: "mario-sanchez"
-tags: [design, architecture, interior]
+publishDate: "2022-03-20T10:00:00.000Z"
+image: "https://picsum.photos/800/600?random=1"
+category: "digital-marketing"
+author: "Gae4IT"
+tags: [design, architecture, interior, mindfulness, nature, wellbeing]
 ---
 
 “What’s the meaning of life?” is a cliche philosophical question, but it touches on something fundamental about how humans relate to the world around them. People want to know that there’s significance to their lives, but not necessarily in any grandiose sense. Most of us just want to feel that there’s value in getting up and being active each day. We search for signs that our existence is a net good in the world, even if only on a minuscule scale in the grander scheme of the universe.

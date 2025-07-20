@@ -26,14 +26,16 @@ const category = categories.find(
     <a href={"/blog/" + post.slug}>
       {
         post.data.image ? (
-          <Picture
-            src={post.data.image}
-            widths={[200, 400, 800]}
-            sizes="(max-width: 640px) 90vw, 480px"
-            alt="Thumbnail"
-            loading={preloadImage ? "eager" : "lazy"}
-            class="w-full h-full rounded-md"
-          />
+          <Picture 
+               src={post.data.image} 
+               widths={[200, 400, 800]} 
+               sizes="(max-width: 640px) 90vw, 480px" 
+               alt="Thumbnail" 
+               loading={preloadImage ? "eager" : "lazy"} 
+               width={800} 
+               height={600} 
+               class="w-full h-full rounded-md" 
+             />
         ) : (
           <span class="absolute w-16 h-16 text-gray-200 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
             <Icon
@@ -54,43 +56,43 @@ const category = categories.find(
     <a href={"/blog/" + post.slug}>
       <span
         class="bg-gradient-to-r from-green-200 to-green-100 dark:from-purple-800 dark:to-purple-900 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px]">
-        {post.data.title}
+        {post.data?.title}
       </span>
     </a>
   </h2>
 
   <div class="hidden">
-    {
-      post.data.excerpt && (
-        <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 line-clamp-3">
-          <a href={"/blog/" + post.slug}>{post.data.excerpt}</a>
-        </p>
-      )
-    }
+    { 
+       post.data?.excerpt && ( 
+         <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 line-clamp-3"> 
+           <a href={"/blog/" + post.slug}>{post.data.excerpt}</a> 
+         </p> 
+       ) 
+     }
   </div>
 
   <div
     class="flex items-center mt-3 space-x-3 text-gray-500 dark:text-gray-400">
     <div class="flex items-center gap-3">
       <div class="relative flex-shrink-0 w-5 h-5">
-        {
-          author.image && (
-            <Image
-              src={author.image}
-              alt="Author Photo"
-              width={40}
-              height={40}
-              loading="lazy"
-              class="rounded-full"
-            />
-          )
-        }
+        { 
+           author?.image && ( 
+             <Image 
+               src={author.image} 
+               alt="Author Photo" 
+               width={40} 
+               height={40} 
+               loading="lazy" 
+               class="rounded-full" 
+             /> 
+           ) 
+         }
       </div>
-      <span class="text-sm">{author.name}</span>
+      <span class="text-sm">{author?.name}</span>
     </div>
     <span class="text-xs text-gray-300 dark:text-gray-600"> &bull;</span>
-    <time class="text-sm" datetime={post.data.publishDate}>
-      {getFormattedDate(post.data.publishDate)}
+    <time class="text-sm" datetime={post.data?.publishDate}> 
+       {getFormattedDate(post.data?.publishDate)}
     </time>
   </div>
 </div>

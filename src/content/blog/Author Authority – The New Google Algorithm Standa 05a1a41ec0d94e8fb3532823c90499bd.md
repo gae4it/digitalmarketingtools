@@ -1,3 +1,13 @@
+---
+title: "Author Authority – The New Google Algorithm Standard for High-Value Blog Content"
+excerpt: "In today's digital age, the landscape of search engine optimization (SEO) is ever-evolving. Google, being the dominant player in the search engine industry, continuously refines its algorithms to ensure users get the best and most relevant content."
+publishDate: "2023-05-20T10:00:00.000Z"
+image: "https://picsum.photos/800/600?random=10"
+category: "digital-marketing"
+author: "Gae4IT"
+tags: [author-authority, google-algorithm, SEO, content-marketing, credibility, expertise, trustworthiness]
+---
+
 # Author Authority – The New Google Algorithm Standard for High-Value Blog Content
 
 In today's digital age, the landscape of search engine optimization (SEO) is ever-evolving. Google, being the dominant player in the search engine industry, continuously refines its algorithms to ensure users get the best and most relevant content. One such crucial algorithmic update revolves around "Author Authority." In this comprehensive article, we delve deep into Author Authority and how it can revolutionize your approach to creating high-value blog content that not only resonates with your audience but also ensures high rankings on Google.

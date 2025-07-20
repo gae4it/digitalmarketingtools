@@ -1,3 +1,13 @@
+---
+title: "AMP Accelerated Mobile Page"
+excerpt: "Accelerated Mobile Pages (AMP) is an open-source initiative that aims to make web pages load quickly and efficiently on mobile devices. It is a set of guidelines and technologies that help developers create pages that are optimized for mobile browsers."
+publishDate: "2020-08-10T10:00:00.000Z"
+image: "https://picsum.photos/800/600?random=6"
+category: "digital-marketing"
+author: "Gae4IT"
+tags: [AMP, mobile, web-performance, SEO, Google, web-development]
+---
+
 # AMP Accelerated Mobile Page
 
 Accelerated Mobile Pages (AMP) is an open-source initiative that aims to make web pages load quickly and efficiently on mobile devices. It is a set of guidelines and technologies that help developers create pages that are optimized for mobile browsers.

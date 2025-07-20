@@ -1,3 +1,13 @@
+---
+title: "Backlink Strategy"
+excerpt: "Link juice is a term used in SEO to describe the value or authority that a backlink passes to the website it connects with."
+publishDate: "2020-02-20T10:00:00.000Z"
+image: "https://picsum.photos/800/600?random=12"
+category: "digital-marketing"
+author: "Gae4IT"
+tags: [backlink-strategy, SEO, link-juice, nofollow, digital-marketing]
+---
+
 # Backlink Strategy
 
 Link juice is a term used in SEO to describe the value or authority that a backlink passes to the website it connects with. It is the power or equity that a website has based on the number and quality of inbound links pointing to it. The more link juice a page has, the better its chance of ranking for its target keywords in Google and other search engines. Link juice is passed through hyperlinks, and search engines see links as votes by one page for another. Link juice is important for a website's SEO because it helps to improve its search engine rankings. The following are some of the factors that determine link juice:

@@ -1,5 +1,15 @@
 # Local SEO Tactics for Small Businesses: A Step-by-Step Guide
 
+---
+title: "Local SEO Tactics for Small Businesses: A Step-by-Step Guide"
+excerpt: "A comprehensive guide to local SEO tactics for small businesses, covering Google My Business optimization, keyword research, on-page content, backlinks, local citations, online reviews, mobile optimization, and schema markup."
+publishDate: "2023-11-22T10:00:00.000Z"
+image: "https://picsum.photos/800/600?random=34"
+category: "SEO"
+author: "Gae4IT"
+tags: [local-SEO, small-business, digital-marketing, Google-My-Business, keyword-research, online-reviews]
+---
+
 # Local SEO Tactics for Small Businesses: A Step-by-Step Guide
 
 In today's digital age, local SEO has become an indispensable tool for small businesses looking to enhance their online presence and reach a broader audience. In this comprehensive guide, we'll explore a range of local SEO tactics that can empower your small business to outshine the competition and secure a prime spot on Google's search results. We'll dive deep into the world of local SEO, providing you with a step-by-step strategy that can help your business soar to the top of the rankings.

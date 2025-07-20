@@ -1,3 +1,13 @@
+---
+title: "ARIA Landmarks Accessibility"
+excerpt: "ARIA landmarks, in web development, refer to specific attributes used to enhance the accessibility of web pages for users who rely on assistive technologies such as screen readers. ARIA stands for Accessible Rich Internet Applications."
+publishDate: "2023-09-01T10:00:00.000Z"
+image: "https://picsum.photos/800/600?random=7"
+category: "digital-marketing"
+author: "Gae4IT"
+tags: [ARIA, accessibility, web-development, screen-readers, W3C, landmarks]
+---
+
 # ARIA Landmarks Accessibility
 
 ARIA landmarks, in web development, refer to specific attributes used to enhance the accessibility of web pages for users who rely on assistive technologies such as screen readers. ARIA stands for Accessible Rich Internet Applications, and it's a set of attributes defined by the W3C (World Wide Web Consortium) to help developers create more accessible web content.

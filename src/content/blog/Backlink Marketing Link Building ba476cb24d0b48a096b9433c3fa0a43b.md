@@ -1,3 +1,13 @@
+---
+title: "Backlink Marketing / Link Building"
+excerpt: "Backlink marketing, also known as link building, is a digital marketing strategy that involves the deliberate effort to acquire links (backlinks) from other websites to your own."
+publishDate: "2021-09-15T10:00:00.000Z"
+image: "https://picsum.photos/800/600?random=11"
+category: "digital-marketing"
+author: "Gae4IT"
+tags: [backlink-marketing, link-building, SEO, digital-marketing, guest-blogging, content-marketing]
+---
+
 # Backlink Marketing / Link Building
 
 Backlink marketing, also known as link building, is a digital marketing strategy that involves the deliberate effort to acquire links (backlinks) from other websites to your own. These backlinks serve as references or recommendations from other websites to yours, and they are a crucial aspect of search engine optimization (SEO). Here's an overview of backlink marketing:

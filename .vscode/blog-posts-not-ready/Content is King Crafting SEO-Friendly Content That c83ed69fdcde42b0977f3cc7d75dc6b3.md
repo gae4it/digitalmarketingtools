@@ -1,5 +1,15 @@
 # Content is King: Crafting SEO-Friendly Content That Ranks
 
+---
+title: "Content is King: Crafting SEO-Friendly Content That Ranks"
+excerpt: "In the ever-evolving landscape of digital marketing, one thing remains constant: content is king. Crafting SEO-friendly content is not just an art; it's a science that can significantly impact your website's ranking on search engine results pages (SERPs)."
+publishDate: "2023-09-01T10:00:00.000Z"
+image: "https://picsum.photos/800/600?random=17"
+category: "digital-marketing"
+author: "Gae4IT"
+tags: [content-marketing, SEO, keywords, quality-content, digital-marketing, search-engine-optimization]
+---
+
 # **Content is King: Crafting SEO-Friendly Content That Ranks**
 
 In the ever-evolving landscape of digital marketing, one thing remains constant: **content is king**. Crafting SEO-friendly content is not just an art; it's a science that can significantly impact your website's ranking on search engine results pages (SERPs). At our digital hub, we understand the pivotal role content plays in the online realm, and we are here to guide you on the journey of creating compelling, search engine-optimized content that reigns supreme.

@@ -1,5 +1,15 @@
 # E-Mail Marketing
 
+---
+title: "E-Mail Marketing"
+excerpt: "Email marketing is a digital marketing strategy that involves sending emails to a group of individuals with the goal of promoting products, services, building relationships, or sharing information."
+publishDate: "2022-08-01T10:00:00.000Z"
+image: "https://picsum.photos/800/600?random=22"
+category: "digital-marketing"
+author: "Gae4IT"
+tags: [email-marketing, digital-marketing, email-campaigns, lead-nurturing, customer-engagement, marketing-strategy]
+---
+
 Email marketing is a digital marketing strategy that involves sending emails to a group of individuals with the goal of promoting products, services, building relationships, or sharing information. It's a versatile and cost-effective method for reaching and engaging a target audience. 
 
 Here's an overview of email marketing and a list of various email types used in the world of marketing:

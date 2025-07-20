@@ -1,5 +1,15 @@
 # Enhancing Web Security: The Importance of rel="noopener" in target="_blank" Links
 
+---
+title: "Enhancing Web Security: The Importance of rel=noopener and rel=noreferrer"
+excerpt: "Explore why using target=_blank links without rel=noopener or rel=noreferrer can expose your webpage to security vulnerabilities and how these attributes safeguard against unauthorized access."
+publishDate: "2023-10-05T10:00:00.000Z"
+image: "https://picsum.photos/800/600?random=23"
+category: "web-development"
+author: "Gae4IT"
+tags: [web-security, rel-noopener, rel-noreferrer, target-blank, web-development, security-best-practices]
+---
+
 In the dynamic world of web development, it's crucial to stay vigilant about potential security and performance pitfalls. One often-overlooked area is the usage of `target="_blank"` links without the accompanying `rel="noopener"` or `rel="noreferrer"` attributes. Let's explore why this seemingly innocent practice can expose your webpage to issues and how a simple addition can make a significant difference.
 
 ### The Vulnerability Unveiled

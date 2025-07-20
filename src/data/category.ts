@@ -42,4 +42,32 @@ export const categories: Props[] = [
     description:
       "Get insights and inspiration from the world of design, with articles covering graphic design, product design, interior design, and more.",
   },
+  {
+    title: "Marketing",
+    slug: "marketing",
+    color: "blue",
+    description:
+      "Explore strategies and concepts in digital marketing, content creation, SEO, and more.",
+  },
+  {
+    title: "Digital Marketing",
+    slug: "digital-marketing",
+    color: "orange",
+    description:
+      "Discover the latest trends and strategies in digital marketing, including SEO, content marketing, social media, and more.",
+  },
+  {
+    title: "Customer Service",
+    slug: "customer-service",
+    color: "pink",
+    description:
+      "Learn best practices for customer service, issue resolution, and enhancing customer satisfaction.",
+  },
+  {
+    title: "SEO",
+    slug: "SEO",
+    color: "green",
+    description:
+      "Master the art of Search Engine Optimization to improve your website's visibility and ranking.",
+  },
 ];

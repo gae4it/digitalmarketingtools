@@ -1,3 +1,13 @@
+---
+title: "A Product Information Management System - PIM"
+excerpt: "A Product Information Management System (PIM) is a software solution or tool that helps businesses manage and centralize product information. It serves as a centralized repository for all product-related data, providing a single source of truth for information such as product descriptions, specifications, pricing, images, and other details."
+publishDate: "2023-01-25T10:00:00.000Z"
+image: "https://picsum.photos/800/600?random=3"
+category: "digital-marketing"
+author: "Gae4IT"
+tags: [PIM, product-information-management, e-commerce, data-management, marketing]
+---
+
 # A Product Information Management System - PIM
 
 A Product Information Management System (PIM) is a software solution or tool that helps businesses manage and centralize product information. It serves as a centralized repository for all product-related data, providing a single source of truth for information such as product descriptions, specifications, pricing, images, and other details.

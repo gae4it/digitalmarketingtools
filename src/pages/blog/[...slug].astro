@@ -35,9 +35,9 @@ const category = categories.find(
 ---
 
 <Layout
-  title={post.data.title}
+  title={post.data?.title}
   desc={post.data.excerpt}
-  ogimage={post.data.image}>
+  ogimage={post.data?.image}>
   <Container>
     <div class="max-w-screen-md mx-auto">
       <div class="text-center">
@@ -52,29 +52,29 @@ const category = categories.find(
       <div class="flex justify-center mt-3 space-x-3 text-gray-500">
         <div class="flex items-center gap-3">
           <div class="relative flex-shrink-0">
-            {
-              author.image && (
-                <Image
-                  src={author.image}
-                  alt="Author Photo"
-                  width={80}
-                  height={80}
-                  loading="eager"
-                  class="rounded-full object-cover w-10 h-10"
-                />
-              )
-            }
+            { 
+               author?.image && ( 
+                 <Image 
+                   src={author.image} 
+                   alt="Author Photo" 
+                   width={80} 
+                   height={80} 
+                   loading="eager" 
+                   class="rounded-full object-cover w-10 h-10" 
+                 /> 
+               ) 
+             }
           </div>
 
           <div>
             <p class="text-gray-800 dark:text-gray-400">
-              {author.name}
+              {author?.name}
             </p>
             <div class="flex items-center space-x-2 text-sm">
               <time
                 class="text-gray-500 dark:text-gray-400"
-                datetime={post.data.publishDate}>
-                {getFormattedDate(post.data.publishDate)}
+                datetime={post.data?.publishDate}> 
+                 {getFormattedDate(post.data?.publishDate)}
               </time>
               <!-- <span>
                 · {Math.round(remarkPluginFrontmatter?.estReadingTime) || "5"} min
@@ -90,18 +90,18 @@ const category = categories.find(
   <div
     class="relative z-0 max-w-screen-lg mx-auto overflow-hidden lg:rounded-lg aspect-video">
     {
-      post.data.image && (
-        <Picture
-          src={post.data.image}
-          widths={[200, 400, 800]}
-          sizes="(max-width: 640px) 90vw, 480px"
-          width={1024}
-          heignt={576}
-          alt="Thumbnail"
-          loading="eager"
-          class="w-full"
-        />
-      )
+      post.data?.image && ( 
+         <Picture 
+           src={post.data.image} 
+           widths={[200, 400, 800]} 
+           sizes="(max-width: 640px) 90vw, 480px" 
+           width={1024} 
+           height={576} 
+           alt="Thumbnail" 
+           loading="eager" 
+           class="w-full" 
+         /> 
+       )
     }
   </div>
 
@@ -113,9 +113,9 @@ const category = categories.find(
 
         <div class="flex flex-wrap items-center w-full gap-3 md:w-auto">
           {
-            post.data.tags.map((tag) => (
-              <span class="text-sm text-gray-500">#{tag}</span>
-            ))
+            post.data?.tags.map((tag) => ( 
+               <span class="text-sm text-gray-500">#{tag}</span> 
+             ))
           }
         </div>
       </div>

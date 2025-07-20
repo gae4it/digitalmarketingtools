@@ -1,5 +1,15 @@
 # Corporate Identity and Corporate Design
 
+---
+title: "Corporate Identity and Corporate Design"
+excerpt: "Corporate Identity and Corporate Design are key elements in marketing that contribute to the overall image and perception of a company."
+publishDate: "2021-06-25T10:00:00.000Z"
+image: "https://picsum.photos/800/600?random=19"
+category: "digital-marketing"
+author: "Gae4IT"
+tags: [corporate-identity, corporate-design, branding, marketing, visual-identity, brand-perception]
+---
+
 Corporate Identity and Corporate Design are key elements in marketing that contribute to the overall image and perception of a company. Let me explain in a straightforward manner:
 
 1. **Corporate Identity:**

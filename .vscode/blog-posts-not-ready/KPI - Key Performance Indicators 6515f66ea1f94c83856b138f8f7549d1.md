@@ -1,5 +1,15 @@
 # KPI - Key Performance Indicators
 
+---
+title: "Key Performance Indicators (KPIs) in Digital Marketing"
+excerpt: "Key Performance Indicators (KPIs) are measurable metrics that assess the success of online campaigns and strategies, providing actionable insights into various aspects like website traffic, conversion rates, and social media engagement."
+publishDate: "2023-07-25T10:00:00.000Z"
+image: "https://picsum.photos/800/600?random=31"
+category: "digital-marketing"
+author: "Gae4IT"
+tags: [KPIs, digital-marketing, metrics, performance-measurement, ROI, analytics]
+---
+
 Key Performance Indicators (KPIs) in digital marketing are measurable metrics that assess the success of online campaigns and strategies. These indicators provide actionable insights into various aspects, such as website traffic, conversion rates, and social media engagement. KPIs like Cost Per Click (CPC), Click-Through Rate (CTR), and Return on Investment (ROI) help marketers gauge the efficiency of their efforts, allowing them to refine and optimize digital marketing strategies for better performance. Monitoring KPIs is essential for making informed decisions, improving ROI, and achieving overall marketing objectives.
 
 Here are some common KPIs in digital marketing:

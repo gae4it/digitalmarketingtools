@@ -1,3 +1,13 @@
+---
+title: "Activity Calendar"
+excerpt: "An activity calendar in marketing, also known as a marketing calendar or content calendar, is a structured document or visual tool used to plan, organize, and schedule marketing activities and campaigns over a specific period. It helps marketing teams stay on track, maintain consistency, and align their efforts with broader marketing strategies and objectives."
+publishDate: "2023-10-01T10:00:00.000Z"
+image: "https://picsum.photos/800/600?random=37"
+category: "marketing"
+author: "Gae4IT"
+tags: [activity-calendar, marketing-calendar, content-calendar, marketing-strategy, planning, scheduling]
+---
+
 # Activity Calendar
 
 An activity calendar in marketing, also known as a marketing calendar or content calendar, is a structured document or visual tool used to plan, organize, and schedule marketing activities and campaigns over a specific period. It helps marketing teams stay on track, maintain consistency, and align their efforts with broader marketing strategies and objectives. Here are the key elements and purposes of an activity calendar in marketing:

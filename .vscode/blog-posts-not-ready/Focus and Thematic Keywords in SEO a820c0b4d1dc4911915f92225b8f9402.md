@@ -1,5 +1,15 @@
 # Focus and Thematic Keywords in SEO
 
+---
+title: "Focus and Thematic Keywords in SEO"
+excerpt: "Focus keywords are central to SEO, representing primary terms for visibility in search results. Thematic keywords are semantically related terms covering a specific topic, crucial for search engines' understanding of content context."
+publishDate: "2023-03-20T10:00:00.000Z"
+image: "https://picsum.photos/800/600?random=24"
+category: "digital-marketing"
+author: "Gae4IT"
+tags: [SEO, focus-keywords, thematic-keywords, keyword-research, content-strategy, digital-marketing]
+---
+
 Focus keywords, also known as key phrases or primary terms, are central in search engine optimization (SEO). They are the words or phrases you target in your SEO strategy and website content to improve your visibility in search engine results like Google. Here are some key points about focus keywords:
 
 1. Relevance: Focus keywords should closely relate to the content of your website or post, representing the main themes or key concepts you want to convey.
