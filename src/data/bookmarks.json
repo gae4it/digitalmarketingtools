@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Ahrefs",
+    "desc": "SEO toolset per analisi backlink, keyword e competitor.",
+    "url": "https://ahrefs.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Figma",
+    "desc": "Design collaborativo di interfacce e prototipi.",
+    "url": "https://figma.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Canva",
+    "desc": "Crea grafiche e contenuti visivi facilmente.",
+    "url": "https://canva.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Semrush",
+    "desc": "Suite completa per SEO, PPC e content marketing.",
+    "url": "https://semrush.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Google Analytics",
+    "desc": "Analisi dettagliata del traffico web.",
+    "url": "https://analytics.google.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Mailchimp",
+    "desc": "Email marketing e automazioni semplici.",
+    "url": "https://mailchimp.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Hootsuite",
+    "desc": "Gestione centralizzata dei social media.",
+    "url": "https://hootsuite.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Buffer",
+    "desc": "Pianifica e pubblica post sui social network.",
+    "url": "https://buffer.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Zapier",
+    "desc": "Automatizza workflow tra app e servizi.",
+    "url": "https://zapier.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Trello",
+    "desc": "Organizza progetti e task in modo visuale.",
+    "url": "https://trello.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Hotjar",
+    "desc": "Heatmap e analisi comportamento utenti.",
+    "url": "https://hotjar.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Google Tag Manager",
+    "desc": "Gestione avanzata dei tag di tracking.",
+    "url": "https://tagmanager.google.com",
+    "img": "/opengraph.jpg"
+  }
+]
