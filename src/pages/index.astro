@@ -28,7 +28,7 @@ import { latestPosts } from "@/utils/content";
       <div class="grid gap-10 mt-10 lg:gap-10 md:grid-cols-2 xl:grid-cols-3">
         {
           latestPosts
-            .slice(2)
+            .slice(2, 8)
             .map((post) => <Postlist post={post} aspect="square" />)
         }
       </div>

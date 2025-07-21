@@ -1,0 +1,21 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Container from "@/components/container.astro";
+import { Image, getImage } from "astro:assets";
+import { authors } from "@/data/authors";
+import Pagetitle from "@/components/pagetitle.astro";
+import Link from "@/components/ui/link.astro";
+
+
+---
+
+<Layout title="Tools">
+  <Container>
+    <Pagetitle>
+      <Fragment slot="title">Tools</Fragment>
+      <Fragment slot="desc">Here an amazing collection of tools</Fragment>
+    </Pagetitle>
+
+    
+  </Container>
+</Layout>
