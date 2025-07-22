@@ -3,7 +3,7 @@ title: "What is an ISTQB Certification? Software Testing Credentials Explained"
 excerpt: "Learn about ISTQB certification, its levels, benefits, and why it's valuable for software testers and QA professionals."
 publishDate: "2023-01-01T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=80"
-category: "software-testing"
+category: "web-development"
 author: "Gae4IT"
 tags: [istqb, certification, software-testing, qa]
 ---

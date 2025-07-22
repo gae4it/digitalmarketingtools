@@ -3,7 +3,7 @@ title: "Local SEO Tactics for Small Businesses: A Step-by-Step Guide"
 excerpt: "A comprehensive guide to local SEO tactics for small businesses, covering Google My Business optimization, keyword research, on-page content, backlinks, local citations, online reviews, mobile optimization, and schema markup."
 publishDate: "2023-11-22T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=34"
-category: "SEO"
+category: "seo"
 author: "Gae4IT"
 tags: [local-SEO, small-business, digital-marketing, Google-My-Business, keyword-research, online-reviews]
 ---

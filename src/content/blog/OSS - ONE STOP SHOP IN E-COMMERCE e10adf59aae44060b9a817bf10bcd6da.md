@@ -3,7 +3,7 @@ title: "OSS - One Stop Shop in E-Commerce"
 excerpt: "Understand the OSS procedure for WooCommerce and how it simplifies EU B2C export compliance, tax reporting, and VAT management."
 publishDate: "2023-01-01T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=46"
-category: "e-commerce"
+category: "web-development"
 author: "Gae4IT"
 tags: [oss, e-commerce, woocommerce, vat, compliance]
 ---

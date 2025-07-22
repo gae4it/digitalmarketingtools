@@ -3,7 +3,7 @@ title: "Understanding Index, Follow, Noindex and Nofollow Directives"
 excerpt: "Explanation of meta robots directives including index/follow and noindex/nofollow, and how they control search engine crawling and indexing behavior."
 publishDate: "2023-02-28T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=28"
-category: "SEO"
+category: "seo"
 author: "Gae4IT"
 tags: [SEO, meta-robots, indexing, crawling, search-engines, technical-seo]
 ---

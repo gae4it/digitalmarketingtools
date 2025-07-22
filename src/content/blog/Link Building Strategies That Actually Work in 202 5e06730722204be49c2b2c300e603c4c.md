@@ -3,7 +3,7 @@ title: "Link Building Strategies That Actually Work in 2024"
 excerpt: "Discover effective link building strategies for 2024, including high-quality content creation, guest posting, broken link building, and competitor analysis, to boost your website's visibility and search engine rankings."
 publishDate: "2024-01-10T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=33"
-category: "SEO"
+category: "seo"
 author: "Gae4IT"
 tags: [link-building, SEO, digital-marketing, content-marketing, guest-posting, backlink-strategy]
 ---

@@ -3,7 +3,7 @@ title: "Link Building Strategies: A Comprehensive Guide"
 excerpt: "Explore various link building strategies, from social media promotion to guest blogging and broken link building, to enhance your website's authority and search engine rankings."
 publishDate: "2023-04-12T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=32"
-category: "SEO"
+category: "seo"
 author: "Gae4IT"
 tags: [link-building, SEO, digital-marketing, backlink-strategy, content-marketing, off-page-seo]
 ---

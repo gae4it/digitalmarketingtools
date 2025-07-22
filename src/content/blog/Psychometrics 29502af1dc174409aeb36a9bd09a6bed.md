@@ -3,7 +3,7 @@ title: "Psychometrics in Marketing: Understanding Consumer Behavior"
 excerpt: "Discover how psychometrics helps marketers analyze psychological and behavioral traits to create targeted marketing strategies."
 publishDate: "2023-01-01T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=50"
-category: "marketing"
+category: "marketing-psychology"
 author: "Gae4IT"
 tags: [psychometrics, marketing, consumer-behavior, segmentation]
 ---
