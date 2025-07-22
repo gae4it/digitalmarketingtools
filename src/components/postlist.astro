@@ -14,7 +14,11 @@ const { post, aspect, preloadImage } = Astro.props;
 const author = authors.find((item) => item.slug === post.data.author) as Author;
 const category = categories.find(
   (item) => item.slug === post.data.category
-) as Category;
+);
+const fallbackCategory = {
+  color: "blue",
+  title: post.data.category || "Unknown Category"
+};
 ---
 
 <div class="cursor-pointer group">
@@ -49,7 +53,7 @@ const category = categories.find(
   </div>
 
   <a href="#">
-    <Label theme={category.color}>{category.title}</Label>
+    <Label theme={(category?.color as "blue" | "green" | "orange" | "purple" | "pink") || fallbackCategory.color}>{category?.title || fallbackCategory.title}</Label>
   </a>
   <h2
     class="mt-2 text-lg font-semibold tracking-normal text-brand-primary dark:text-white">

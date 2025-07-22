@@ -7,6 +7,13 @@ export interface Props {
 export type Category = Props;
 
 export const categories: Props[] = [
+    {
+    title: "Marketing",
+    slug: "marketing",
+    color: "blue",
+    description:
+      "Keep up with the latest tech trends and learn about the latest innovations in software development, hardware design, cybersecurity, and more.",
+  },
   {
     title: "Technology",
     slug: "technology",
@@ -69,5 +76,48 @@ export const categories: Props[] = [
     color: "green",
     description:
       "Master the art of Search Engine Optimization to improve your website's visibility and ranking.",
+  },
+  // Added missing color categories
+  {
+    title: "Red Category",
+    slug: "red-category",
+    color: "red" as any,
+    description: "A category for posts with the red color.",
+  },
+  {
+    title: "Yellow Category",
+    slug: "yellow-category",
+    color: "yellow" as any,
+    description: "A category for posts with the yellow color.",
+  },
+  {
+    title: "Teal Category",
+    slug: "teal-category",
+    color: "teal" as any,
+    description: "A category for posts with the teal color.",
+  },
+  {
+    title: "Cyan Category",
+    slug: "cyan-category",
+    color: "cyan" as any,
+    description: "A category for posts with the cyan color.",
+  },
+  {
+    title: "Indigo Category",
+    slug: "indigo-category",
+    color: "indigo" as any,
+    description: "A category for posts with the indigo color.",
+  },
+  {
+    title: "Gray Category",
+    slug: "gray-category",
+    color: "gray" as any,
+    description: "A category for posts with the gray color.",
+  },
+  {
+    title: "Brown Category",
+    slug: "brown-category",
+    color: "brown" as any,
+    description: "A category for posts with the brown color.",
   },
 ];

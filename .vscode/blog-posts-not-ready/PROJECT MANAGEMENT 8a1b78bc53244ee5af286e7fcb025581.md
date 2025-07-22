@@ -1,5 +1,0 @@
-# PROJECT MANAGEMENT
-
-[SCRUM Framework](SCRUM%20Framework%206db09efe1d18480fa2c9ce0cc7334f8e.md)
-
-[AGILE Method](AGILE%20Method%20f382cb7408a44dab99bebd17f6777326.md)
