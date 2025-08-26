@@ -41,11 +41,11 @@ const mobilemenu: Menu[] = [...menu];
 
       <!-- LOGO -->
       <div class="flex items-center justify-between w-full md:w-auto">
-        <a class="w-28 dark:hidden" href="/">
+        <a class="w-35 dark:hidden" href="/">
           <Image src={logoImage} alt="Logo" />
         </a>
 
-        <a class="hidden w-28 dark:block" href="/">
+        <a class="hidden w-35 dark:block" href="/">
           <Image src={darkLogo} alt="Logo" />
         </a>
 
@@ -75,7 +75,7 @@ const mobilemenu: Menu[] = [...menu];
       </div>
 
       <div
-        class="flex-col items-center justify-start order-2 hidden w-full md:flex md:flex-row md:w-auto md:flex-1 md:order-none">
+        class="flex-col items-center justify-end order-2 hidden w-full md:flex md:flex-row md:w-auto md:flex-1 md:order-none">
         {
           menu.map((item) => (
             <a
