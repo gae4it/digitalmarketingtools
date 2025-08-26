@@ -2,6 +2,7 @@
 import Container from "@/components/container.astro";
 import logoImage from "@/assets/logo.svg";
 import darkLogo from "@/assets/logo-dark.svg";
+import DigitalMarketingLogo from '../components/DigitalMarketingLogo.astro';
 import { Image } from "astro:assets";
 
 interface Menu {
@@ -41,13 +42,18 @@ const mobilemenu: Menu[] = [...menu];
 
       <!-- LOGO -->
       <div class="flex items-center justify-between w-full md:w-auto">
-        <a class="w-35 dark:hidden" href="/">
-          <Image src={logoImage} alt="Logo" />
-        </a>
 
-        <a class="hidden w-35 dark:block" href="/">
+        <!-- OLD IMAGE LOGO -->
+        <!-- <a class="w-35 dark:hidden" href="/">
+          <Image src={logoImage} alt="Logo" />
+            <a class="hidden w-35 dark:block" href="/">
           <Image src={darkLogo} alt="Logo" />
         </a>
+        </a> -->
+
+        <!-- LOGO -->
+        <DigitalMarketingLogo />
+
 
         <!-- MENU -->
         <button
@@ -74,13 +80,14 @@ const mobilemenu: Menu[] = [...menu];
         </button>
       </div>
 
+      <!-- NAVIGATION MENU DESKTOP -->
       <div
         class="flex-col items-center justify-end order-2 hidden w-full md:flex md:flex-row md:w-auto md:flex-1 md:order-none">
         {
           menu.map((item) => (
             <a
               href={item.href}
-              class="px-5 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-500">
+              class="px-5 py-2 text-sm font-medium text-black dark:text-white hover:text-blue-500">
               {item.label}
             </a>
           ))
@@ -96,7 +103,7 @@ const mobilemenu: Menu[] = [...menu];
           mobilemenu.map((item, index) => (
             <a
               href={item.href}
-              class="px-5 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-500"
+              class="px-5 py-2 text-sm font-medium text-white hover:text-blue-500"
               target={item.external ? "_blank" : ""}
               rel={item.external ? "noopener" : ""}>
               {item.label}
