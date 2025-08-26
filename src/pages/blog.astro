@@ -21,6 +21,8 @@ let categorySlugs = categories.map((c) => c.slug);
       </Pagetitle>
 
       <main>
+
+        <!-- POST CATEGORIES FILTER BUTTONS -->
         {/** Step 2: Get all categories from data */}
         <div class="flex flex-wrap gap-2 mt-10 mb-2 justify-stretch CategoryFilter" id="categories" data-categories={categorySlugs}>
           {categories.map((cat) => <CategoryFilter category={cat.slug} />)}

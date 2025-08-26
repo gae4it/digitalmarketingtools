@@ -49,4 +49,10 @@ export const categories: Props[] = [
     description:
       "Legal considerations, compliance, and regulations in business and technology.",
   },
+/*   {
+  title: "All",
+  slug: "all",
+  color: "gray",
+  description: "All categories combined."
+  } */
 ];

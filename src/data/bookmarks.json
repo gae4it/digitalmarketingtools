@@ -1,74 +1,152 @@
 [
   {
     "title": "Ahrefs",
-    "desc": "SEO toolset per analisi backlink, keyword e competitor.",
+    "desc": "SEO toolset for backlink, keyword and competitor analysis.",
     "url": "https://ahrefs.com",
     "img": "/opengraph.jpg"
   },
   {
     "title": "Figma",
-    "desc": "Design collaborativo di interfacce e prototipi.",
+    "desc": "Collaborative interface and prototype design.",
     "url": "https://figma.com",
     "img": "/opengraph.jpg"
   },
   {
     "title": "Canva",
-    "desc": "Crea grafiche e contenuti visivi facilmente.",
+    "desc": "Easily create graphics and visual content.",
     "url": "https://canva.com",
     "img": "/opengraph.jpg"
   },
   {
     "title": "Semrush",
-    "desc": "Suite completa per SEO, PPC e content marketing.",
+    "desc": "Complete suite for SEO, PPC and content marketing.",
     "url": "https://semrush.com",
     "img": "/opengraph.jpg"
   },
   {
     "title": "Google Analytics",
-    "desc": "Analisi dettagliata del traffico web.",
+    "desc": "Detailed web traffic analysis.",
     "url": "https://analytics.google.com",
     "img": "/opengraph.jpg"
   },
   {
     "title": "Mailchimp",
-    "desc": "Email marketing e automazioni semplici.",
+    "desc": "Simple email marketing and automations.",
     "url": "https://mailchimp.com",
     "img": "/opengraph.jpg"
   },
   {
     "title": "Hootsuite",
-    "desc": "Gestione centralizzata dei social media.",
+    "desc": "Centralized social media management.",
     "url": "https://hootsuite.com",
     "img": "/opengraph.jpg"
   },
   {
     "title": "Buffer",
-    "desc": "Pianifica e pubblica post sui social network.",
+    "desc": "Schedule and publish posts on social networks.",
     "url": "https://buffer.com",
     "img": "/opengraph.jpg"
   },
   {
     "title": "Zapier",
-    "desc": "Automatizza workflow tra app e servizi.",
+    "desc": "Automate workflows between apps and services.",
     "url": "https://zapier.com",
     "img": "/opengraph.jpg"
   },
   {
     "title": "Trello",
-    "desc": "Organizza progetti e task in modo visuale.",
+    "desc": "Organize projects and tasks visually.",
     "url": "https://trello.com",
     "img": "/opengraph.jpg"
   },
   {
     "title": "Hotjar",
-    "desc": "Heatmap e analisi comportamento utenti.",
+    "desc": "Heatmaps and user behavior analytics.",
     "url": "https://hotjar.com",
     "img": "/opengraph.jpg"
   },
   {
     "title": "Google Tag Manager",
-    "desc": "Gestione avanzata dei tag di tracking.",
+    "desc": "Advanced management of tracking tags.",
     "url": "https://tagmanager.google.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Moz",
+    "desc": "SEO software for site audits, rank tracking and backlink analysis.",
+    "url": "https://moz.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "HubSpot",
+    "desc": "CRM platform for inbound marketing, sales and customer service.",
+    "url": "https://hubspot.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Google Ads",
+    "desc": "Online advertising platform for pay-per-click campaigns.",
+    "url": "https://ads.google.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Screaming Frog",
+    "desc": "Website crawler for SEO audits and analysis.",
+    "url": "https://screamingfrog.co.uk",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Surfer SEO",
+    "desc": "On-page SEO optimization tool.",
+    "url": "https://surferseo.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Google Search Console",
+    "desc": "Monitor and troubleshoot your website’s presence in Google Search results.",
+    "url": "https://search.google.com/search-console",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Unbounce",
+    "desc": "Landing page builder for marketers.",
+    "url": "https://unbounce.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Typeform",
+    "desc": "Create interactive forms and surveys.",
+    "url": "https://typeform.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Sprout Social",
+    "desc": "Social media management and analytics platform.",
+    "url": "https://sproutsocial.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "ActiveCampaign",
+    "desc": "Email marketing, marketing automation and CRM.",
+    "url": "https://activecampaign.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Optimizely",
+    "desc": "A/B testing and experimentation platform.",
+    "url": "https://optimizely.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Leadpages",
+    "desc": "Build landing pages and generate leads.",
+    "url": "https://leadpages.com",
+    "img": "/opengraph.jpg"
+  },
+  {
+    "title": "Bitly",
+    "desc": "URL shortening and link management platform.",
+    "url": "https://bitly.com",
     "img": "/opengraph.jpg"
   }
 ]
