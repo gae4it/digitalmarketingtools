@@ -17,7 +17,9 @@ import { latestPosts } from "@/utils/content";
 <Layout title="">
   <Container>
     <main>
-      <div class="grid gap-10 lg:gap-10 md:grid-cols-2">
+
+      <!-- BLOG POSTS 2 COLUMNS -->
+      <div class="grid gap-10 lg:gap-10 grid-cols-2">
         {
           latestPosts
             .slice(0, 2)
@@ -26,15 +28,17 @@ import { latestPosts } from "@/utils/content";
             ))
         }
       </div>
-      <div class="grid gap-10 mt-10 lg:gap-10 md:grid-cols-2 xl:grid-cols-3">
+
+      <!-- BLOG POSTS 3 COLUMNS -->
+      <div class="grid gap-8 mt-10 lg:gap-8 md:grid-cols-2 xl:grid-cols-3">
         {
           latestPosts
             .slice(2, 8)
-            .map((post) => <Postlist post={post} aspect="square" />)
+            .map((post) => <Postlist post={post} aspect="landscape" />)
         }
       </div>
 
-      
+      <!-- BOOKMARKS -->
       <div class="flex flex-wrap justify-center gap-8 mt-12">
         {
           bookmarks.slice(0, 8).map((tool) => (

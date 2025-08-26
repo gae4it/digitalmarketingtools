@@ -21,25 +21,26 @@ const fallbackCategory = {
 };
 ---
 
-<div class="cursor-pointer group">
+<!-- POST CARD LAYOUT -->
+<div class="cursor-pointer group bg-[#1a2636] rounded-xl overflow-hidden shadow-lg h-full flex flex-col">
   <div
     class={cx(
-      "relative overflow-hidden transition-all bg-gray-100 rounded-md dark:bg-gray-800   hover:scale-105",
-      aspect === "landscape" ? "aspect-[3/1]" : "aspect-[3/1]"
+      "relative overflow-hidden transition-all bg-[#1a2636] rounded-tl-xl rounded-tr-xl shadow-lg hover:scale-105",
+      aspect === "landscape" ? "aspect-[2/1]" : "aspect-[2/1]"
     )}>
     <a href={"/blog/" + post.slug}>
       {
         post.data.image ? (
           <Picture 
-               src={post.data.image} 
-               widths={[200, 400, 800]} 
-               sizes="(max-width: 640px) 90vw, 480px" 
-               alt="Thumbnail" 
-               loading={preloadImage ? "eager" : "lazy"} 
-               width={800} 
-               height={600} 
-               class="w-full h-full rounded-md" 
-             />
+              src={post.data.image} 
+              widths={[200, 400, 800]} 
+              sizes="(max-width: 640px) 90vw, 480px" 
+              alt="Thumbnail" 
+              loading={preloadImage ? "eager" : "lazy"} 
+              width={800} 
+              height={600} 
+              class="w-full h-64 object-cover" 
+            />
         ) : (
           <span class="absolute w-16 h-16 text-gray-200 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
             <Icon
@@ -52,50 +53,53 @@ const fallbackCategory = {
     </a>
   </div>
 
-  <a href="#">
-    <Label theme={(category?.color as "blue" | "green" | "orange" | "purple" | "pink") || fallbackCategory.color}>{category?.title || fallbackCategory.title}</Label>
-  </a>
-  <h2
-    class="mt-2 text-lg font-semibold tracking-normal text-brand-primary dark:text-white">
-    <a href={"/blog/" + post.slug}>
-      <span
-        class="bg-gradient-to-r from-green-200 to-green-100 dark:from-purple-800 dark:to-purple-900 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px]">
-        {post.data?.title}
-      </span>
+  <div class="py-2 px-6">
+    <a href="#">
+      <Label theme={(category?.color as "blue" | "green" | "orange" | "purple" | "pink") || fallbackCategory.color} class="text-[#4793e8] text-sm font-semibold uppercase">{category?.title || fallbackCategory.title}</Label>
     </a>
-  </h2>
 
-  <div>
-    { 
-       post.data?.excerpt && ( 
-         <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 line-clamp-3"> 
-           <a href={"/blog/" + post.slug}>{post.data.excerpt}</a> 
-         </p> 
-       ) 
-     }
-  </div>
+    <!-- POST TITLE -->
+    <h2
+      class="mt-2 text-white text-xl font-bold">
+      <a href={"/blog/" + post.slug}>
+        <span
+          class="bg-gradient-to-r from-green-200 to-green-100 dark:from-purple-800 dark:to-purple-900 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px]">
+          {post.data?.title}
+        </span>
+      </a>
+    </h2>
 
-  <div
-    class="flex items-center mt-3 space-x-3 text-gray-500 dark:text-gray-400">
-    <div class="flex items-center gap-3">
-      <div class="relative flex-shrink-0 w-5 h-5">
-        { 
-           author?.image && ( 
-             <Image 
-               src={author.image} 
-               alt="Author Photo" 
-               width={40} 
-               height={40} 
-               loading="lazy" 
-               class="rounded-full" 
-             /> 
-           ) 
-         }
-      </div>
-      <span class="text-sm">{author?.name}</span>
+    <!-- POST EXCERPT -->
+    <div>
+      { 
+         post.data?.excerpt && ( 
+           <p class="mt-3 text-gray-400 text-sm leading-relaxed line-clamp-3"> 
+             <a href={"/blog/" + post.slug}>{post.data.excerpt}</a> 
+           </p> 
+         ) 
+       }
     </div>
-    <span class="text-xs text-gray-300 dark:text-gray-600"></span>
 
-    </time>
+    <div
+      class="flex items-center mt-3 space-x-3 text-gray-400">
+      <div class="flex items-center gap-3">
+        <div class="relative flex-shrink-0 w-5 h-5">
+          { 
+             author?.image && ( 
+               <Image 
+                 src={author.image} 
+                 alt="Author Photo" 
+                 width={40} 
+                 height={40} 
+                 loading="lazy" 
+                 class="rounded-full" 
+               /> 
+             ) 
+           }
+        </div>
+        <span class="text-sm">{author?.name}</span>
+      </div>
+      <span class="text-xs text-gray-300 dark:text-gray-600"></span>
+    </div>
   </div>
 </div>

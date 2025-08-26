@@ -31,7 +31,7 @@ let categorySlugs = categories.map((c) => c.slug);
             // Step 3: Add category as class to blog card
             let category = post.data.category;
             return (
-              <div class={`blog-card ${category}`} style="display: block;">
+              <div class={`blog-card ${category} h-full flex flex-col`} style="display: block;">
                 <Postlist post={post} aspect="square" />
               </div>
             );
