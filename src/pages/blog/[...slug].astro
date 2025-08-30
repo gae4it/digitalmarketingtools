@@ -7,12 +7,9 @@ import { authors } from "@/data/authors";
 import { categories } from "@/data/category";
 import Layout from "@/layouts/Layout.astro";
 import { getFormattedDate } from "@/utils/all";
-import { CollectionEntry, getCollection } from "astro:content";
-
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
 import type { Author } from "@/data/authors";
-import type { Category } from "@/data/category";
-
-type Props = CollectionEntry<"blog">;
 
 export async function getStaticPaths() {
   const blog = await getCollection("blog");
@@ -23,21 +20,20 @@ export async function getStaticPaths() {
   }));
 }
 
-const { post } = Astro.props;
+const { post } = Astro.props as { post: CollectionEntry<"blog"> };
 
 const { Content, remarkPluginFrontmatter } = await post.render();
 
 const author = authors.find((item) => item.slug === post.data.author) as Author;
 const category = categories.find(
   (item) => item.slug === post.data.category
-) || categories[0]; // Fallback to first category if not found
-
+) || categories[0];
 ---
 
 <Layout
   title={post.data?.title}
   desc={post.data.excerpt}
-  ogimage={post.data?.image}>
+  ogimage={post.data?.image?.src}>
   <Container>
     <div class="max-w-screen-md mx-auto">
       <div class="text-center">
@@ -73,13 +69,9 @@ const category = categories.find(
             <div class="flex items-center space-x-2 text-sm">
               <time
                 class="text-gray-500 dark:text-gray-400"
-                datetime={post.data?.publishDate}> 
+                datetime={post.data?.publishDate?.toISOString()}> 
                  {getFormattedDate(post.data?.publishDate)}
               </time>
-              <!-- <span>
-                · {Math.round(remarkPluginFrontmatter?.estReadingTime) || "5"} min
-                read
-              </span> -->
             </div>
           </div>
         </div>
