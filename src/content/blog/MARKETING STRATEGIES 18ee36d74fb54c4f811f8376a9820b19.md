@@ -8,7 +8,7 @@ author: "Gae4IT"
 tags: [marketing-strategies, digital-marketing, business-strategy, marketing-mix, SWOT-analysis, KPIs]
 ---
 
-[Marketing Mix 4P, 7P, 4C](Marketing%20Mix%204P,%207P,%204C%20036aa375eebb4e9a98e18712194e099f.md)
+[ 4P, 7P, 4C](Marketing%20Mix%204P,%207P,%204C%20036aa375eebb4e9a98e18712194e099f.md)
 
 [SWOT Analysis](SWOT%20Analysis%20b3d4ce56e4d849588bd0fe2b1ca6d815.md)
 

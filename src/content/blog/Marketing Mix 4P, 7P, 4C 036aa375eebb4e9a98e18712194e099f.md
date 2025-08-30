@@ -2,7 +2,7 @@
 title: "Marketing Mix: 4P, 7P, 4C"
 excerpt: "Il marketing mix comprende i modelli 4P, 7P e 4C, fondamentali per pianificare strategie di marketing efficaci e customer-centric."
 publishDate: "2023-10-10T10:00:00.000Z"
-image: "https://picsum.photos/800/600?random=34"
+image: "https://picsum.photos/800/600?random=134"
 category: "digital-marketing"
 author: "Gae4IT"
 tags: [marketing-mix, 4p, 7p, 4c, marketing-strategy, digital-marketing]
