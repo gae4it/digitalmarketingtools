@@ -2,6 +2,7 @@
 /* HOME PAGE */
 import Container from "@/components/container.astro";
 import Postlist from "@/components/postlist.astro";
+import Hero from "@/components/Hero.astro";
 import Layout from "@/layouts/Layout.astro";
 import bookmarks from "@/data/bookmarks.json";
 import { latestPosts } from "@/utils/content";
@@ -15,10 +16,24 @@ import { latestPosts } from "@/utils/content";
 ---
 
 <Layout title="">
-  <Container>
-    <main>
 
-      <!-- BLOG POSTS 2 COLUMNS -->
+  <!-- HERO -->
+  <Hero
+    title="Unlock Your Digital Potential"
+    subtitle="Discover the best tools and strategies to boost your online business. In-depth guides, reviews, and resources to help you grow."
+    imageSrc="/src/assets/hero.png"
+    imageAlt="Digital Marketing Tools Hero"
+    variant="large"
+    ctaButtons={[
+      { label: "Explore Articles", href: "/blog", style: "primary" },
+      { label: "Discover Tools", href: "/tools", style: "secondary" },
+    ]}
+  />
+
+  <Container>
+    <main class="mt-16">
+
+      {/* BLOG POSTS 2 COLUMNS */}
       <div class="grid gap-10 lg:gap-10 grid-cols-1 sm:grid-cols-2">
         {
           latestPosts
@@ -29,7 +44,7 @@ import { latestPosts } from "@/utils/content";
         }
       </div>
 
-      <!-- BLOG POSTS 3 COLUMNS -->
+      {/* BLOG POSTS 3 COLUMNS */}
       <div class="grid gap-8 mt-10 lg:gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
         {
           latestPosts
@@ -38,7 +53,7 @@ import { latestPosts } from "@/utils/content";
         }
       </div>
 
-      <!-- BOOKMARKS -->
+      {/* FEATURED TOOLS */}
       <div class="flex flex-wrap justify-center gap-8 mt-12">
         {
           bookmarks.slice(0, 8).map((tool) => (
