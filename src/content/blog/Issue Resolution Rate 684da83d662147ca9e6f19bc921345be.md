@@ -5,7 +5,15 @@ publishDate: "2023-09-05T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=30"
 category: "marketing"
 author: "Gae4IT"
-tags: [customer-service, metrics, issue-resolution, digital-marketing, customer-satisfaction, support-performance]
+tags:
+  [
+    customer-service,
+    metrics,
+    issue-resolution,
+    digital-marketing,
+    customer-satisfaction,
+    support-performance,
+  ]
 ---
 
 In digital marketing, the "Issue Resolution Rate" is a metric that **measures the effectiveness of resolving customer issues or concerns raised** through digital channels. It reflects the percentage of customer problems or complaints that have been successfully addressed and resolved by the brand or its customer support team.

@@ -5,7 +5,16 @@ publishDate: "2023-05-20T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=10"
 category: "digital-marketing"
 author: "Gae4IT"
-tags: [author-authority, google-algorithm, SEO, content-marketing, credibility, expertise, trustworthiness]
+tags:
+  [
+    author-authority,
+    google-algorithm,
+    SEO,
+    content-marketing,
+    credibility,
+    expertise,
+    trustworthiness,
+  ]
 ---
 
 # Author Authority – The New Google Algorithm Standard for High-Value Blog Content

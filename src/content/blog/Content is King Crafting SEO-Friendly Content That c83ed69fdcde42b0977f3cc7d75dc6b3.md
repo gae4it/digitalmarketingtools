@@ -5,7 +5,15 @@ publishDate: "2023-09-01T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=17"
 category: "digital-marketing"
 author: "Gae4IT"
-tags: [content-marketing, SEO, keywords, quality-content, digital-marketing, search-engine-optimization]
+tags:
+  [
+    content-marketing,
+    SEO,
+    keywords,
+    quality-content,
+    digital-marketing,
+    search-engine-optimization,
+  ]
 ---
 
 # **Content is King: Crafting SEO-Friendly Content That Ranks**

@@ -5,7 +5,15 @@ publishDate: "2023-10-01T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=37"
 category: "marketing"
 author: "Gae4IT"
-tags: [activity-calendar, marketing-calendar, content-calendar, marketing-strategy, planning, scheduling]
+tags:
+  [
+    activity-calendar,
+    marketing-calendar,
+    content-calendar,
+    marketing-strategy,
+    planning,
+    scheduling,
+  ]
 ---
 
 # Activity Calendar

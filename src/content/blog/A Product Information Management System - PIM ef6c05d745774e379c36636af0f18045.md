@@ -5,7 +5,8 @@ publishDate: "2023-01-25T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=3"
 category: "digital-marketing"
 author: "Gae4IT"
-tags: [PIM, product-information-management, e-commerce, data-management, marketing]
+tags:
+  [PIM, product-information-management, e-commerce, data-management, marketing]
 ---
 
 # A Product Information Management System - PIM

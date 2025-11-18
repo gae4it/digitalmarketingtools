@@ -16,9 +16,7 @@ Share of Buzz
 
 - **Brand Mentions:** The number of times a brand or product is mentioned across various digital platforms, including social media, forums, blogs, and news articles.
 - **Competitor Mentions:** The total mentions of competitors or similar products in the same digital spaces.
-- 
-
-**Formula for Share of Buzz:**
+- **Formula for Share of Buzz:**
 
 ![Untitled](Untitled%203.png)
 

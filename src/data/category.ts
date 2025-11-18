@@ -1,7 +1,17 @@
 export interface Props {
   title: string;
   slug: string;
-  color: "red" | "orange" | "yellow" | "green" | "blue" | "purple" | "pink" | "brown" | "gray" | "black";
+  color:
+    | "red"
+    | "orange"
+    | "yellow"
+    | "green"
+    | "blue"
+    | "purple"
+    | "pink"
+    | "brown"
+    | "gray"
+    | "black";
   description: string;
 }
 export type Category = Props;
@@ -39,8 +49,7 @@ export const categories: Props[] = [
     title: "Web Development",
     slug: "web-development",
     color: "purple",
-    description:
-      "Best practices, tools, and trends in modern web development.",
+    description: "Best practices, tools, and trends in modern web development.",
   },
   {
     title: "Legal",
@@ -49,7 +58,7 @@ export const categories: Props[] = [
     description:
       "Legal considerations, compliance, and regulations in business and technology.",
   },
-/*   {
+  /*   {
   title: "All",
   slug: "all",
   color: "gray",

@@ -5,7 +5,15 @@ publishDate: "2023-01-01T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=36"
 category: "marketing"
 author: "Gae4IT"
-tags: [marketing-strategies, digital-marketing, business-strategy, marketing-mix, SWOT-analysis, KPIs]
+tags:
+  [
+    marketing-strategies,
+    digital-marketing,
+    business-strategy,
+    marketing-mix,
+    SWOT-analysis,
+    KPIs,
+  ]
 ---
 
 [ 4P, 7P, 4C](Marketing%20Mix%204P,%207P,%204C%20036aa375eebb4e9a98e18712194e099f.md)

@@ -10,27 +10,31 @@ import rehypePluginImageNativeLazyLoading from "rehype-plugin-image-native-lazy-
 
 import { remarkReadingTime } from "./src/utils/all";
 
-
 export default defineConfig({
-  site: "https://stablo-astro.web3templates.com",
+  site: "https://digitalmarketing-tools.netlify.app/",
   markdown: {
     remarkPlugins: [remarkReadingTime],
     rehypePlugins: [rehypePluginImageNativeLazyLoading],
     extendDefaultPlugins: true,
   },
   integrations: [
-    tailwind(), 
+    tailwind(),
     mdx({
       remarkPlugins: [remarkReadingTime],
       rehypePlugins: [rehypePluginImageNativeLazyLoading],
-    }), 
-    sitemap(), 
-    icon(), 
-    react()
+    }),
+    sitemap(),
+    icon(),
+    react(),
   ],
   build: {
     rollupOptions: {
-      external: ["react", "react-dom", "react/jsx-runtime", "react/jsx-dev-runtime"]
-    }
-  }
+      external: [
+        "react",
+        "react-dom",
+        "react/jsx-runtime",
+        "react/jsx-dev-runtime",
+      ],
+    },
+  },
 });

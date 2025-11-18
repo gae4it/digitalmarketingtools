@@ -1,7 +1,7 @@
 export interface HeroCTAButton {
   label: string;
   href: string;
-  style?: 'primary' | 'secondary';
+  style?: "primary" | "secondary";
 }
 
 export interface HeroProps {
@@ -9,7 +9,7 @@ export interface HeroProps {
   subtitle: string;
   imageSrc: string;
   imageAlt?: string;
-  textPosition?: 'left' | 'center' | 'right';
-  variant?: 'default' | 'large' | 'compact';
+  textPosition?: "left" | "center" | "right";
+  variant?: "default" | "large" | "compact";
   ctaButtons?: HeroCTAButton[];
 }

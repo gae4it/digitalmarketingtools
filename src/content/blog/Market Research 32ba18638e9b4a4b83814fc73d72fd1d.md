@@ -5,7 +5,8 @@ publishDate: "2023-09-20T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=32"
 category: "digital-marketing"
 author: "Gae4IT"
-tags: [market-research, marketing, business, strategy, research, digital-marketing]
+tags:
+  [market-research, marketing, business, strategy, research, digital-marketing]
 ---
 
 # Market Research

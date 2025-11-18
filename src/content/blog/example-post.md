@@ -5,7 +5,14 @@ publishDate: "2023-05-15T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=26"
 category: "digital-marketing"
 author: "Gae4IT"
-tags: [digital-marketing, marketing-basics, online-marketing, marketing-strategy, beginners]
+tags:
+  [
+    digital-marketing,
+    marketing-basics,
+    online-marketing,
+    marketing-strategy,
+    beginners,
+  ]
 ---
 
 # Getting Started with Digital Marketing

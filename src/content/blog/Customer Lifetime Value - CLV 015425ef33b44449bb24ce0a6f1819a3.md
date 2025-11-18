@@ -5,7 +5,15 @@ publishDate: "2023-02-10T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=22"
 category: "digital-marketing"
 author: "Gae4IT"
-tags: [customer-lifetime-value, CLV, marketing-metrics, customer-retention, customer-acquisition, business-strategy]
+tags:
+  [
+    customer-lifetime-value,
+    CLV,
+    marketing-metrics,
+    customer-retention,
+    customer-acquisition,
+    business-strategy,
+  ]
 ---
 
 Customer Lifetime Value (CLV or CLTV), also known as customer equity, is a key metric in marketing that represents the total predictable revenue a business can expect to earn from a customer throughout their entire relationship. In other words, it quantifies the value a customer brings to a business over the course of their engagement.
@@ -20,7 +28,7 @@ The calculation of Customer Lifetime Value involves estimating the potential rev
 
 The formula for calculating Customer Lifetime Value is typically represented as:
 
-***CLV* = (*AveragePurchaseValue* × *PurchaseFrequency* × *CustomerLifespan*) / *ChurnRate***
+**_CLV_ = (_AveragePurchaseValue_ × _PurchaseFrequency_ × _CustomerLifespan_) / _ChurnRate_**
 
 A high CLV indicates that a customer is valuable to the business and that the business is successful in retaining customers over an extended period. In contrast, a low CLV might suggest that the business is struggling with customer retention or that the cost of acquiring customers is not justified by their long-term value.
 

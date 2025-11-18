@@ -5,7 +5,15 @@ publishDate: "2023-08-18T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=29"
 category: "digital-marketing"
 author: "Gae4IT"
-tags: [influencer-marketing, social-media, digital-marketing, brand-awareness, content-collaboration, audience-engagement]
+tags:
+  [
+    influencer-marketing,
+    social-media,
+    digital-marketing,
+    brand-awareness,
+    content-collaboration,
+    audience-engagement,
+  ]
 ---
 
 Influencer marketing is a strategic approach in marketing where businesses collaborate with individuals who have a significant and engaged following on social media or other digital platforms. These individuals, known as influencers, can impact or "influence" the purchase decisions of their audience due to their credibility, authority, and authenticity within a specific niche or industry. Influencer marketing leverages the trust that influencers have built with their followers to promote products, services, or brands. Here are key aspects of influencer marketing:

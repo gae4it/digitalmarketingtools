@@ -1,11 +1,18 @@
 ---
 title: "Active Advocates"
-excerpt: "In digital marketing, \"Active Advocates\" typically refers to individuals or customers who actively and enthusiastically promote a brand, product, or service through various online channels."
+excerpt: 'In digital marketing, "Active Advocates" typically refers to individuals or customers who actively and enthusiastically promote a brand, product, or service through various online channels.'
 publishDate: "2022-01-05T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=8"
 category: "digital-marketing"
 author: "Gae4IT"
-tags: [digital-marketing, brand-advocacy, word-of-mouth, customer-loyalty, brand-ambassadors]
+tags:
+  [
+    digital-marketing,
+    brand-advocacy,
+    word-of-mouth,
+    customer-loyalty,
+    brand-ambassadors,
+  ]
 ---
 
 # Active Advocates

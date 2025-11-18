@@ -5,7 +5,15 @@ publishDate: "2023-03-20T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=27"
 category: "digital-marketing"
 author: "Gae4IT"
-tags: [SEO, focus-keywords, thematic-keywords, keyword-research, content-strategy, digital-marketing]
+tags:
+  [
+    SEO,
+    focus-keywords,
+    thematic-keywords,
+    keyword-research,
+    content-strategy,
+    digital-marketing,
+  ]
 ---
 
 Focus keywords, also known as key phrases or primary terms, are central in search engine optimization (SEO). They are the words or phrases you target in your SEO strategy and website content to improve your visibility in search engine results like Google. Here are some key points about focus keywords:

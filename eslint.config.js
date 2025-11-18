@@ -3,6 +3,9 @@ import typescript from "@typescript-eslint/eslint-plugin";
 import parser from "@typescript-eslint/parser";
 
 export default [
+  {
+    ignores: ["dist/**", "public/**", ".astro/**", "node_modules/**"],
+  },
   // Add the Astro configuration
   ...astro.configs.recommended,
   {
@@ -12,11 +15,11 @@ export default [
       parserOptions: {
         ecmaVersion: "latest",
         sourceType: "module",
-        project: "./tsconfig.json"
-      }
+        project: "./tsconfig.json",
+      },
     },
     plugins: {
-      "@typescript-eslint": typescript
+      "@typescript-eslint": typescript,
     },
     rules: {
       // Add any additional TypeScript/JavaScript rules here

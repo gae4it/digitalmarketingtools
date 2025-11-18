@@ -1,11 +1,20 @@
 ---
 title: "4 Human Types"
-excerpt: "In marketing and consumer behavior, there are various models and frameworks used to categorize and understand different types of individuals based on their behavior, preferences, and characteristics. One such model is the \"Four Human Types\" framework, which simplifies the diversity of consumers into four broad categories."
+excerpt: 'In marketing and consumer behavior, there are various models and frameworks used to categorize and understand different types of individuals based on their behavior, preferences, and characteristics. One such model is the "Four Human Types" framework, which simplifies the diversity of consumers into four broad categories.'
 publishDate: "2021-07-15T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=2"
 category: "digital-marketing"
 author: "Gae4IT"
-tags: [marketing, consumer-behavior, human-types, pioneers, prospectors, settlers, plumbers]
+tags:
+  [
+    marketing,
+    consumer-behavior,
+    human-types,
+    pioneers,
+    prospectors,
+    settlers,
+    plumbers,
+  ]
 ---
 
 # 4 Human Types

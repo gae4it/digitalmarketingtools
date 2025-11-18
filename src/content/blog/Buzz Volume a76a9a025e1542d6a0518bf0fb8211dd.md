@@ -1,11 +1,18 @@
 ---
 title: "Buzz Volume"
-excerpt: "In digital marketing, \"buzz volume\" refers to the amount of online conversation or discussion surrounding a particular topic, brand, product, or campaign."
+excerpt: 'In digital marketing, "buzz volume" refers to the amount of online conversation or discussion surrounding a particular topic, brand, product, or campaign.'
 publishDate: "2020-07-01T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=14"
 category: "digital-marketing"
 author: "Gae4IT"
-tags: [buzz-volume, digital-marketing, social-listening, brand-awareness, online-conversation]
+tags:
+  [
+    buzz-volume,
+    digital-marketing,
+    social-listening,
+    brand-awareness,
+    online-conversation,
+  ]
 ---
 
 # Buzz Volume

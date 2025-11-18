@@ -19,6 +19,6 @@ astro.configs.recommended.forEach((config, index) => {
     });
   }
   if (config.languageOptions) {
-    console.log("- parser:", config.languageOptions.parser?.name || 'default');
+    console.log("- parser:", config.languageOptions.parser?.name || "default");
   }
 });

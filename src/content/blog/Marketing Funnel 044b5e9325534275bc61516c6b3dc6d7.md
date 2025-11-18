@@ -5,7 +5,14 @@ publishDate: "2023-10-01T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=33"
 category: "digital-marketing"
 author: "Gae4IT"
-tags: [marketing-funnel, sales-funnel, customer-journey, conversion, digital-marketing]
+tags:
+  [
+    marketing-funnel,
+    sales-funnel,
+    customer-journey,
+    conversion,
+    digital-marketing,
+  ]
 ---
 
 # Marketing Funnel

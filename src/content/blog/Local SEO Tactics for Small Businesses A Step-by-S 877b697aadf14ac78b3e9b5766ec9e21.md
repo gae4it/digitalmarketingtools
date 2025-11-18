@@ -5,7 +5,15 @@ publishDate: "2023-11-22T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=34"
 category: "seo"
 author: "Gae4IT"
-tags: [local-SEO, small-business, digital-marketing, Google-My-Business, keyword-research, online-reviews]
+tags:
+  [
+    local-SEO,
+    small-business,
+    digital-marketing,
+    Google-My-Business,
+    keyword-research,
+    online-reviews,
+  ]
 ---
 
 # Local SEO Tactics for Small Businesses: A Step-by-Step Guide

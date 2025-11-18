@@ -15,6 +15,7 @@ This document outlines the development patterns, conventions, and guidelines dis
 ## File Structure & Organization
 
 ### Directory Structure
+
 ```
 src/
 ├── assets/           # Static assets (images, icons)
@@ -38,6 +39,7 @@ src/
 ### 1. Type Definition Pattern
 
 **✅ Correct Pattern**: Define types in separate files
+
 ```typescript
 // src/data/hero.ts
 export interface Props {
@@ -45,14 +47,15 @@ export interface Props {
   subtitle: string;
   imageSrc: string;
   imageAlt?: string;
-  textPosition?: 'left' | 'center' | 'right';
-  variant?: 'default' | 'large' | 'compact';
+  textPosition?: "left" | "center" | "right";
+  variant?: "default" | "large" | "compact";
 }
 
 export type HeroProps = Props;
 ```
 
 **❌ Avoid**: Defining types directly in component files
+
 ```astro
 ---
 export interface Props {
@@ -64,14 +67,15 @@ export interface Props {
 ### 2. Component Import Pattern
 
 **✅ Correct**: Import types from data files
+
 ```astro
 ---
 import type { HeroProps } from "@/data/hero";
 
-const { 
-  title, 
-  subtitle, 
-  imageSrc, 
+const {
+  title,
+  subtitle,
+  imageSrc,
   imageAlt = title,
   textPosition = 'center',
   variant = 'default'
@@ -94,10 +98,10 @@ import OtherComponent from "@/components/OtherComponent.astro";
 import { utilityFunction } from "@/utils/all";
 
 // 4. Props destructuring with types
-const { 
-  prop1, 
+const {
+  prop1,
   prop2 = "defaultValue",
-  optionalProp 
+  optionalProp
 }: ComponentProps = Astro.props;
 
 // 5. Component logic
@@ -126,37 +130,47 @@ const computedValue = prop1 + prop2;
 ### Tailwind CSS Patterns
 
 1. **Responsive Design**: Mobile-first approach
+
 ```html
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"></div>
 ```
 
 2. **Dark Mode Support**: Always include dark mode variants
+
 ```html
-<div class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+<div class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"></div>
 ```
 
 3. **Spacing Consistency**: Use standard Tailwind spacing scale
+
 ```html
-<section class="py-16 md:py-24">  <!-- Standard section padding -->
-<div class="mt-8 mb-6">           <!-- Standard element spacing -->
+<section class="py-16 md:py-24">
+  <!-- Standard section padding -->
+  <div class="mt-8 mb-6"><!-- Standard element spacing --></div>
+</section>
 ```
 
 ### CSS Custom Properties Pattern
 
 Use CSS custom properties for theme-aware styling:
+
 ```css
 .hero {
-  background: linear-gradient(135deg, 
-    theme('colors.gray.50') 0%, 
-    theme('colors.blue.50') 50%, 
-    theme('colors.purple.50') 100%);
+  background: linear-gradient(
+    135deg,
+    theme("colors.gray.50") 0%,
+    theme("colors.blue.50") 50%,
+    theme("colors.purple.50") 100%
+  );
 }
 
 .dark .hero {
-  background: linear-gradient(135deg, 
-    theme('colors.gray.900') 0%, 
-    theme('colors.blue.900') 50%, 
-    theme('colors.purple.900') 100%);
+  background: linear-gradient(
+    135deg,
+    theme("colors.gray.900") 0%,
+    theme("colors.blue.900") 50%,
+    theme("colors.purple.900") 100%
+  );
 }
 ```
 
@@ -165,6 +179,7 @@ Use CSS custom properties for theme-aware styling:
 ### Blog Post Structure
 
 All blog posts follow this frontmatter pattern:
+
 ```markdown
 ---
 title: "Post Title"
@@ -187,21 +202,22 @@ tags: [tag1, tag2, tag3]
 ```astro
 import { Image, Picture } from "astro:assets";
 
-<Picture 
-  src={post.data.image} 
-  widths={[200, 400, 800]} 
-  sizes="(max-width: 640px) 90vw, 480px" 
-  alt="Thumbnail" 
-  loading={preloadImage ? "eager" : "lazy"} 
-  width={800} 
-  height={600} 
-  class="w-full h-64 object-cover" 
+<Picture
+  src={post.data.image}
+  widths={[200, 400, 800]}
+  sizes="(max-width: 640px) 90vw, 480px"
+  alt="Thumbnail"
+  loading={preloadImage ? "eager" : "lazy"}
+  width={800}
+  height={600}
+  class="w-full h-64 object-cover"
 />
 ```
 
 ## Data Management
 
 ### Authors Pattern
+
 ```typescript
 // src/data/authors.ts
 export interface Props {
@@ -219,12 +235,23 @@ export const authors: Props[] = [
 ```
 
 ### Categories Pattern
+
 ```typescript
 // src/data/category.ts
 export interface Props {
   title: string;
   slug: string;
-  color: "red" | "orange" | "yellow" | "green" | "blue" | "purple" | "pink" | "brown" | "gray" | "black";
+  color:
+    | "red"
+    | "orange"
+    | "yellow"
+    | "green"
+    | "blue"
+    | "purple"
+    | "pink"
+    | "brown"
+    | "gray"
+    | "black";
   description: string;
 }
 
@@ -245,14 +272,15 @@ export const categories: Props[] = [
 4. **Slot Support**: Include slots for flexible content insertion
 
 Example:
+
 ```astro
 ---
 import type { HeroProps } from "@/data/hero";
 
-const { 
-  title, 
-  subtitle, 
-  imageSrc, 
+const {
+  title,
+  subtitle,
+  imageSrc,
   imageAlt = title,        // Default to title
   textPosition = 'center', // Sensible default
   variant = 'default'      // Sensible default
@@ -270,12 +298,14 @@ const {
 ## Performance Guidelines
 
 ### Image Optimization
+
 1. Use `loading="eager"` only for above-the-fold images
 2. Use `loading="lazy"` for below-the-fold images
 3. Provide multiple widths for responsive images
 4. Always include proper `alt` attributes
 
 ### Code Splitting
+
 1. Import components only where needed
 2. Use dynamic imports for heavy components when possible
 3. Leverage Astro's built-in code splitting
@@ -290,11 +320,13 @@ const {
 ## Error Handling
 
 ### TypeScript Configuration
+
 - Enable `strictNullChecks` in tsconfig.json
 - Use optional chaining and nullish coalescing
 - Provide fallback values for optional props
 
 ### Conditional Rendering
+
 ```astro
 {post.data?.image ? (
   <Picture src={post.data.image} alt="Post image" />
@@ -308,11 +340,13 @@ const {
 ## Build & Deployment
 
 ### Package Management
+
 - Use `pnpm` for package management
 - Lock dependencies with `pnpm-lock.yaml`
 - Regular dependency updates and security audits
 
 ### Environment Configuration
+
 - Use environment variables for configuration
 - Separate development and production settings
 - Secure sensitive information
@@ -320,12 +354,14 @@ const {
 ## Testing Guidelines
 
 ### Component Testing
+
 1. Test component rendering with different props
 2. Test responsive behavior
 3. Test dark/light mode variants
 4. Test accessibility compliance
 
 ### Performance Testing
+
 1. Lighthouse audits for each page type
 2. Image optimization verification
 3. Bundle size monitoring
@@ -333,13 +369,16 @@ const {
 ## Documentation Standards
 
 ### Code Documentation
+
 1. Use JSDoc comments for complex functions
 2. Include prop descriptions in TypeScript interfaces
 3. Document component usage examples
 4. Maintain this guidelines document
 
 ### README Updates
+
 Keep the project README.md updated with:
+
 - Setup instructions
 - Development workflow
 - Deployment process
@@ -348,12 +387,14 @@ Keep the project README.md updated with:
 ## Future Considerations
 
 ### Scalability
+
 - Consider component library extraction
 - Plan for internationalization (i18n)
 - Prepare for CMS integration
 - Consider micro-frontend architecture
 
 ### Performance Monitoring
+
 - Implement analytics
 - Monitor Core Web Vitals
 - Track user engagement metrics
@@ -370,4 +411,4 @@ Keep the project README.md updated with:
 
 ---
 
-*This document should be updated as new patterns and guidelines are discovered during development.*
+_This document should be updated as new patterns and guidelines are discovered during development._

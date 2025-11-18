@@ -5,7 +5,15 @@ publishDate: "2020-05-10T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=4"
 category: "digital-marketing"
 author: "Gae4IT"
-tags: [agile, project-management, software-development, scrum, kanban, extreme-programming]
+tags:
+  [
+    agile,
+    project-management,
+    software-development,
+    scrum,
+    kanban,
+    extreme-programming,
+  ]
 ---
 
 # AGILE Method

@@ -31,46 +31,46 @@ Here's an example HTML code utilizing these ARIA landmarks:
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Example with ARIA Landmarks</title>
-</head>
-<body>
-
-<header role="banner">
-    <h1>Accessible Website</h1>
-    <nav role="navigation">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example with ARIA Landmarks</title>
+  </head>
+  <body>
+    <header role="banner">
+      <h1>Accessible Website</h1>
+      <nav role="navigation">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<main role="main">
-    <h2>About Us</h2>
-    <p>Welcome to our website! We provide accessible solutions for web development.</p>
-</main>
+    <main role="main">
+      <h2>About Us</h2>
+      <p>
+        Welcome to our website! We provide accessible solutions for web
+        development.
+      </p>
+    </main>
 
-<aside role="complementary">
-    <h2>Related Links</h2>
-    <ul>
+    <aside role="complementary">
+      <h2>Related Links</h2>
+      <ul>
         <li><a href="#blog">Blog</a></li>
         <li><a href="#resources">Resources</a></li>
-    </ul>
-</aside>
+      </ul>
+    </aside>
 
-<footer role="contentinfo">
-    <p>&copy; 2024 Accessible Website. All rights reserved.</p>
-    <p>Contact: info@example.com</p>
-</footer>
-
-</body>
+    <footer role="contentinfo">
+      <p>&copy; 2024 Accessible Website. All rights reserved.</p>
+      <p>Contact: info@example.com</p>
+    </footer>
+  </body>
 </html>
-
 ```
 
 In this example:

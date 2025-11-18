@@ -5,7 +5,15 @@ publishDate: "2023-10-05T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=25"
 category: "web-development"
 author: "Gae4IT"
-tags: [web-security, rel-noopener, rel-noreferrer, target-blank, web-development, security-best-practices]
+tags:
+  [
+    web-security,
+    rel-noopener,
+    rel-noreferrer,
+    target-blank,
+    web-development,
+    security-best-practices,
+  ]
 ---
 
 In the dynamic world of web development, it's crucial to stay vigilant about potential security and performance pitfalls. One often-overlooked area is the usage of `target="_blank"` links without the accompanying `rel="noopener"` or `rel="noreferrer"` attributes. Let's explore why this seemingly innocent practice can expose your webpage to issues and how a simple addition can make a significant difference.
@@ -27,8 +35,9 @@ By incorporating `rel="noopener"`, the newly opened page is restricted from acce
 Implementing `rel="noopener"` or `rel="noreferrer"` is a straightforward process. When creating your links, simply include the attribute to ensure a more secure browsing experience for your users. Here's an example:
 
 ```html
-<a href="<https://example.com>" target="_blank" rel="noopener">Visit Example.com</a>
-
+<a href="<https://example.com>" target="_blank" rel="noopener"
+  >Visit Example.com</a
+>
 ```
 
 This small addition to your code can have a substantial impact on the overall security posture of your website.

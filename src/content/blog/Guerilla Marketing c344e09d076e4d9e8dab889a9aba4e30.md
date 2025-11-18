@@ -5,7 +5,15 @@ publishDate: "2023-05-10T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=28"
 category: "marketing"
 author: "Gae4IT"
-tags: [guerilla-marketing, unconventional-marketing, creative-marketing, low-budget-marketing, viral-marketing, brand-awareness]
+tags:
+  [
+    guerilla-marketing,
+    unconventional-marketing,
+    creative-marketing,
+    low-budget-marketing,
+    viral-marketing,
+    brand-awareness,
+  ]
 ---
 
 Guerrilla marketing is a creative and unconventional marketing strategy that relies on low-cost, innovative, and often unconventional tactics to promote a product, service, or brand. It's characterized by its ability to generate buzz, capture attention, and create a memorable impact on the target audience. Guerrilla marketing is often associated with surprising and out-of-the-box approaches that challenge traditional marketing norms. Here are key aspects of guerrilla marketing:

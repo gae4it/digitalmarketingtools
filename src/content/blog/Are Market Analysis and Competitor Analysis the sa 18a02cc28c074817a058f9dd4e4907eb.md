@@ -5,7 +5,14 @@ publishDate: "2024-01-10T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=9"
 category: "digital-marketing"
 author: "Gae4IT"
-tags: [market-analysis, competitor-analysis, business-strategy, marketing, market-research]
+tags:
+  [
+    market-analysis,
+    competitor-analysis,
+    business-strategy,
+    marketing,
+    market-research,
+  ]
 ---
 
 # Are Market Analysis and Competitor Analysis the same thing?

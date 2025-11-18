@@ -1,11 +1,19 @@
 ---
 title: "Co-Occurrence Keywords"
-excerpt: "In the context of search engine optimization (SEO) and content analysis, \"co-occurrence\" refers to the presence of two or more words or phrases within the same context or piece of content."
+excerpt: 'In the context of search engine optimization (SEO) and content analysis, "co-occurrence" refers to the presence of two or more words or phrases within the same context or piece of content.'
 publishDate: "2023-07-20T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=15"
 category: "digital-marketing"
 author: "Gae4IT"
-tags: [co-occurrence, keywords, SEO, content-analysis, semantic-relationships, natural-language-processing]
+tags:
+  [
+    co-occurrence,
+    keywords,
+    SEO,
+    content-analysis,
+    semantic-relationships,
+    natural-language-processing,
+  ]
 ---
 
 # Co-Occurrence Keywords

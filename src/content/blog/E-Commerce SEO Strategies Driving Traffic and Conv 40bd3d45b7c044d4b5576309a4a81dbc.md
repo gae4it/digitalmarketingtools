@@ -5,7 +5,16 @@ publishDate: "2023-11-25T10:00:00.000Z"
 image: "https://picsum.photos/800/600?random=23"
 category: "digital-marketing"
 author: "Gae4IT"
-tags: [e-commerce, SEO, digital-marketing, traffic-generation, conversion-optimization, keyword-research, backlink-building]
+tags:
+  [
+    e-commerce,
+    SEO,
+    digital-marketing,
+    traffic-generation,
+    conversion-optimization,
+    keyword-research,
+    backlink-building,
+  ]
 ---
 
 # E-Commerce SEO Strategies: Driving Traffic and Conversions
