@@ -1,9 +1,12 @@
 ---
 const { category } = Astro.props;
 import { categories } from "@/data/category";
+import FilterButton from "./FilterButton.astro";
+
 const cat = categories.find((c) => c.slug === category);
 ---
-<!-- OLD HOVER CLASS -> hover:bg-${cat?.color || 'gray'}-500 -->
-<button data-type={category} class={`text-primary bg-gray-700 text-gray-200 px-4 py-2 mx-2 rounded-full cursor-pointer hover:text-black hover:bg-white transition`} id="blogFilter">
-  {cat ? cat.title : category}
-</button>
+<FilterButton 
+  label={cat ? cat.title : category} 
+  dataAttribute="data-type" 
+  value={category} 
+/>

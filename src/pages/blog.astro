@@ -23,8 +23,7 @@ let categorySlugs = categories.map((c) => c.slug);
       <main>
 
         <!-- POST CATEGORIES FILTER BUTTONS -->
-        {/** Step 2: Get all categories from data */}
-  <div class="flex flex-wrap gap-2 mt-10 mb-2 justify-stretch flex-col sm:flex-row CategoryFilter" id="categories" data-categories={categorySlugs}>
+        <div class="flex flex-wrap gap-2 mt-10 mb-2 justify-center" id="categories" data-categories={categorySlugs}>
           {categories.map((cat) => <CategoryFilter category={cat.slug} />)}
         </div>
 
@@ -41,12 +40,27 @@ let categorySlugs = categories.map((c) => c.slug);
         </div>
       </main>
       <script is:inline>
+        let selectedCategory = null;
+
         function hideBlogs(evt) {
-          let selectedCategory = evt.currentTarget.getAttribute("data-type");
+          selectedCategory = evt.currentTarget.getAttribute("data-type");
           let catElement = document.getElementById("categories");
           let categories = catElement.dataset.categories;
           categories = categories.split(",");
-          categories.splice(categories.indexOf(selectedCategory), 1);
+          
+          // Update button styles
+          document.querySelectorAll('.filter-btn').forEach(btn => {
+            const btnCategory = btn.getAttribute('data-type');
+            if (btnCategory === selectedCategory) {
+              btn.classList.add('bg-blue-600', 'text-white', 'border-blue-600');
+              btn.classList.remove('bg-white', 'dark:bg-[#1a2636]', 'text-gray-700', 'dark:text-gray-200', 'border-gray-300', 'dark:border-gray-700');
+              btn.setAttribute('aria-pressed', 'true');
+            } else {
+              btn.classList.remove('bg-blue-600', 'text-white', 'border-blue-600');
+              btn.classList.add('bg-white', 'dark:bg-[#1a2636]', 'text-gray-700', 'dark:text-gray-200', 'border-gray-300', 'dark:border-gray-700');
+              btn.setAttribute('aria-pressed', 'false');
+            }
+          });
 
           categories.forEach((c) => {
             const elementsToHide = document.getElementsByClassName(c);
@@ -63,7 +77,7 @@ let categorySlugs = categories.map((c) => c.slug);
 
         // Event listener for the button click
         window.addEventListener("DOMContentLoaded", () => {
-          const input = document.querySelectorAll("#blogFilter");
+          const input = document.querySelectorAll(".filter-btn");
           input.forEach((e) => {
             e.addEventListener("click", hideBlogs);
           });

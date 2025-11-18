@@ -1,76 +1,947 @@
 [
-  {"title": "Webflow", "url": "https://webflow.com", "desc": "No-code website builder for designers and teams.", "icon": "webflow", "category": "CMS & Website Builders"},
-  {"title": "Framer", "url": "https://framer.com", "desc": "Design and ship websites visually, fast.", "icon": "framer", "category": "CMS & Website Builders"},
-  {"title": "WordPress", "url": "https://wordpress.org", "desc": "The world’s most popular open-source CMS.", "icon": "wordpress", "category": "CMS & Website Builders"},
-  {"title": "Elementor", "url": "https://elementor.com", "desc": "Drag-and-drop website builder for WordPress.", "icon": "elementor", "category": "CMS & Website Builders"},
-  {"title": "Divi", "url": "https://www.elegantthemes.com/divi/", "desc": "Visual WordPress theme and page builder.", "icon": "divi", "category": "CMS & Website Builders"},
-  {"title": "Joomla", "url": "https://joomla.org", "desc": "Flexible and powerful open-source CMS.", "icon": "joomla", "category": "CMS & Website Builders"},
-  {"title": "Typo3", "url": "https://typo3.org", "desc": "Enterprise open-source CMS for complex sites.", "icon": "typo3", "category": "CMS & Website Builders"},
-  {"title": "Squarespace", "url": "https://squarespace.com", "desc": "All-in-one website building and hosting platform.", "icon": "squarespace", "category": "CMS & Website Builders"},
-  {"title": "Drupal", "url": "https://drupal.org", "desc": "Flexible, scalable open-source CMS.", "icon": "drupal", "category": "CMS & Website Builders"},
-  {"title": "Wix", "url": "https://wix.com", "desc": "Easy-to-use website builder for everyone.", "icon": "wix", "category": "CMS & Website Builders"},
-  {"title": "Ghost", "url": "https://ghost.org", "desc": "Professional publishing platform for blogs.", "icon": "ghost", "category": "CMS & Website Builders"},
-  {"title": "Shopify", "url": "https://shopify.com", "desc": "Leading e-commerce platform for online stores.", "icon": "shopify", "category": "E-Commerce Platforms"},
-  {"title": "PrestaShop", "url": "https://prestashop.com", "desc": "Open-source e-commerce solution.", "icon": "prestashop", "category": "E-Commerce Platforms"},
-  {"title": "WooCommerce", "url": "https://woocommerce.com", "desc": "WordPress plugin for e-commerce stores.", "icon": "woocommerce", "category": "E-Commerce Platforms"},
-  {"title": "Magento", "url": "https://magento.com", "desc": "Powerful open-source e-commerce platform.", "icon": "magento", "category": "E-Commerce Platforms"},
-  {"title": "BigCommerce", "url": "https://bigcommerce.com", "desc": "E-commerce platform for fast-growing brands.", "icon": "bigcommerce", "category": "E-Commerce Platforms"},
-  {"title": "Figma", "url": "https://figma.com", "desc": "Collaborative interface design tool.", "icon": "figma", "category": "Web & Graphic Design"},
-  {"title": "Adobe XD", "url": "https://adobe.com/products/xd.html", "desc": "UI/UX design and prototyping tool by Adobe.", "icon": "adobexd", "category": "Web & Graphic Design"},
-  {"title": "Sketch", "url": "https://sketch.com", "desc": "Digital design toolkit for macOS.", "icon": "sketch", "category": "Web & Graphic Design"},
-  {"title": "Canva", "url": "https://canva.com", "desc": "Online graphic design platform for everyone.", "icon": "canva", "category": "Web & Graphic Design"},
-  {"title": "Adobe Photoshop", "url": "https://adobe.com/products/photoshop.html", "desc": "Industry-standard photo editing software.", "icon": "adobephotoshop", "category": "Web & Graphic Design"},
-  {"title": "Adobe Illustrator", "url": "https://adobe.com/products/illustrator.html", "desc": "Vector graphics and illustration software.", "icon": "adobeillustrator", "category": "Web & Graphic Design"},
-  {"title": "Affinity Designer", "url": "https://affinity.serif.com/en-us/designer/", "desc": "Professional graphic design software.", "icon": "affinitydesigner", "category": "Web & Graphic Design"},
-  {"title": "Miro", "url": "https://miro.com", "desc": "Online collaborative whiteboard platform.", "icon": "miro", "category": "Collaboration & Whiteboarding"},
-  {"title": "Netlify", "url": "https://netlify.com", "desc": "Cloud platform for web deployment and hosting.", "icon": "netlify", "category": "Hosting & Deployment"},
-  {"title": "Vercel", "url": "https://vercel.com", "desc": "Frontend cloud for static sites and serverless.", "icon": "vercel", "category": "Hosting & Deployment"},
-  {"title": "Hostinger", "url": "https://hostinger.com", "desc": "Affordable web hosting provider.", "icon": "hostinger", "category": "Hosting & Deployment"},
-  {"title": "Jira", "url": "https://jira.com", "desc": "Agile project management tool by Atlassian.", "icon": "jira", "category": "Project & Task Management"},
-  {"title": "Confluence", "url": "https://confluence.atlassian.com", "desc": "Team workspace and documentation by Atlassian.", "icon": "confluence", "category": "Project & Task Management"},
-  {"title": "Trello", "url": "https://trello.com", "desc": "Visual project management with boards and cards.", "icon": "trello", "category": "Project & Task Management"},
-  {"title": "Notion", "url": "https://notion.so", "desc": "All-in-one workspace for notes, docs, and tasks.", "icon": "notion", "category": "Project & Task Management"},
-  {"title": "ClickUp", "url": "https://clickup.com", "desc": "Productivity platform for teams and projects.", "icon": "clickup", "category": "Project & Task Management"},
-  {"title": "Asana", "url": "https://asana.com", "desc": "Work management platform for teams.", "icon": "asana", "category": "Project & Task Management"},
-  {"title": "Google Analytics", "url": "https://analytics.google.com", "desc": "Web analytics service by Google.", "icon": "googleanalytics", "category": "Analytics & SEO"},
-  {"title": "Ahrefs", "url": "https://ahrefs.com", "desc": "SEO toolset for backlinks and keyword research.", "icon": "ahrefs", "category": "Analytics & SEO"},
-  {"title": "SEMrush", "url": "https://semrush.com", "desc": "Online visibility and marketing analytics platform.", "icon": "semrush", "category": "Analytics & SEO"},
-  {"title": "Sistrix", "url": "https://sistrix.com", "desc": "SEO software for professionals.", "icon": "sistrix", "category": "Analytics & SEO"},
-  {"title": "Ubersuggest", "url": "https://neilpatel.com/ubersuggest/", "desc": "SEO tool for keyword research and site audit.", "icon": "ubersuggest", "category": "Analytics & SEO"},
-  {"title": "Seobility", "url": "https://seobility.net", "desc": "SEO software for better website optimization.", "icon": "seobility", "category": "Analytics & SEO"},
-  {"title": "GTmetrix", "url": "https://gtmetrix.com", "desc": "Website speed and performance testing tool.", "icon": "gtmetrix", "category": "Analytics & SEO"},
-  {"title": "PageSpeed Insights", "url": "https://pagespeed.web.dev/", "desc": "Google tool for analyzing site performance.", "icon": "googlepagespeedinsights", "category": "Analytics & SEO"},
-  {"title": "HubSpot", "url": "https://hubspot.com", "desc": "CRM platform for marketing, sales, and support.", "icon": "hubspot", "category": "Marketing Automation & CRM"},
-  {"title": "Hootsuite", "url": "https://hootsuite.com", "desc": "Social media management platform.", "icon": "hootsuite", "category": "Marketing Automation & CRM"},
-  {"title": "Mailchimp", "url": "https://mailchimp.com", "desc": "All-in-one email marketing platform.", "icon": "mailchimp", "category": "E-Mail Marketing"},
-  {"title": "MailUp", "url": "https://mailup.com", "desc": "Email and SMS marketing automation platform.", "icon": "mailup", "category": "E-Mail Marketing"},
-  {"title": "Rapidmail", "url": "https://rapidmail.com", "desc": "Email marketing software for newsletters.", "icon": "rapidmail", "category": "E-Mail Marketing"},
-  {"title": "GitHub Copilot", "url": "https://github.com/features/copilot", "desc": "AI-powered code completion assistant.", "icon": "github", "category": "AI & Coding Assistants"},
-  {"title": "ChatGPT", "url": "https://chat.openai.com/", "desc": "Conversational AI assistant by OpenAI.", "icon": "openai", "category": "AI & Coding Assistants"},
-  {"title": "Replit", "url": "https://replit.com", "desc": "Collaborative online IDE and coding platform.", "icon": "replit", "category": "AI & Coding Assistants"},
-  {"title": "Strapi", "url": "https://strapi.io", "desc": "Open-source headless CMS for developers.", "icon": "strapi", "category": "Headless CMS"},
-  {"title": "Contentful", "url": "https://contentful.com", "desc": "API-first headless CMS for digital teams.", "icon": "contentful", "category": "Headless CMS"},
-  {"title": "Sanity", "url": "https://sanity.io", "desc": "Composable content cloud for teams.", "icon": "sanity", "category": "Headless CMS"},
-  {"title": "Neon", "url": "https://neon.tech", "desc": "Serverless Postgres database platform.", "icon": "neon", "category": "Databases & Backend"},
-  {"title": "Firebase", "url": "https://firebase.google.com", "desc": "Google’s platform for app backend and hosting.", "icon": "firebase", "category": "Databases & Backend"},
-  {"title": "Supabase", "url": "https://supabase.com", "desc": "Open-source Firebase alternative.", "icon": "supabase", "category": "Databases & Backend"},
-  {"title": "Prisma", "url": "https://prisma.io", "desc": "Next-generation Node.js and TypeScript ORM.", "icon": "prisma", "category": "ORM & Database Tools"},
-  {"title": "Drizzle", "url": "https://orm.drizzle.team", "desc": "TypeScript ORM that is light, performant and SQL-like.", "icon": "drizzle", "category": "ORM & Database Tools"},
-  {"title": "TypeORM", "url": "https://typeorm.io", "desc": "ORM for TypeScript and JavaScript (Node.js).", "icon": "typeorm", "category": "ORM & Database Tools"},
-  {"title": "Sequelize", "url": "https://sequelize.org", "desc": "Promise-based Node.js ORM for SQL databases.", "icon": "sequelize", "category": "ORM & Database Tools"},
-  {"title": "MikroORM", "url": "https://mikro-orm.io", "desc": "TypeScript ORM based on Data Mapper pattern.", "icon": "mikroorm", "category": "ORM & Database Tools"},
-  {"title": "Objection.js", "url": "https://vincit.github.io/objection.js/", "desc": "SQL-friendly ORM for Node.js built on Knex.js.", "icon": "objectiondotjs", "category": "ORM & Database Tools"},
-  {"title": "Hasura", "url": "https://hasura.io", "desc": "Instant GraphQL APIs on your data.", "icon": "hasura", "category": "API & GraphQL Tools"},
-  {"title": "PostgREST", "url": "https://postgrest.org", "desc": "REST API for any PostgreSQL database.", "icon": "postgrest", "category": "API & GraphQL Tools"},
-  {"title": "Apollo GraphQL", "url": "https://apollographql.com", "desc": "State management for local and remote data with GraphQL.", "icon": "apollographql", "category": "API & GraphQL Tools"},
-  {"title": "GraphQL Yoga", "url": "https://the-guild.dev/graphql/yoga-server", "desc": "Fully-featured GraphQL Server with easy setup.", "icon": "graphql", "category": "API & GraphQL Tools"},
-  {"title": "React.js", "url": "https://react.dev", "desc": "Popular JavaScript library for building UIs.", "icon": "react", "category": "JavaScript Frameworks & Libraries"},
-  {"title": "Next.js", "url": "https://nextjs.org", "desc": "React framework for production web apps.", "icon": "nextdotjs", "category": "JavaScript Frameworks & Libraries"},
-  {"title": "Vue.js", "url": "https://vuejs.org", "desc": "Progressive JavaScript framework for UIs.", "icon": "vuejs", "category": "JavaScript Frameworks & Libraries"},
-  {"title": "Nuxt.js", "url": "https://nuxt.com", "desc": "The intuitive Vue framework for web apps.", "icon": "nuxtdotjs", "category": "JavaScript Frameworks & Libraries"},
-  {"title": "Astro", "url": "https://astro.build", "desc": "All-in-one web framework for content sites.", "icon": "astro", "category": "JavaScript Frameworks & Libraries"},
-  {"title": "Tailwind CSS", "url": "https://tailwindcss.com", "desc": "Utility-first CSS framework for rapid UI.", "icon": "tailwindcss", "category": "CSS Frameworks & UI Libraries"},
-  {"title": "Bootstrap", "url": "https://getbootstrap.com", "desc": "Popular CSS framework for responsive design.", "icon": "bootstrap", "category": "CSS Frameworks & UI Libraries"},
-  {"title": "Material UI", "url": "https://mui.com", "desc": "React UI library with Material Design.", "icon": "mui", "category": "CSS Frameworks & UI Libraries"},
-  {"title": "Chakra UI", "url": "https://chakra-ui.com", "desc": "Simple, modular React component library.", "icon": "chakraui", "category": "CSS Frameworks & UI Libraries"}
+  {
+    "title": "Webflow",
+    "url": "https://webflow.com",
+    "desc": "No-code website builder for designers and teams.",
+    "icon": "webflow",
+    "category": "CMS & Website Builders"
+  },
+  {
+    "title": "Framer",
+    "url": "https://framer.com",
+    "desc": "Design and ship websites visually, fast.",
+    "icon": "framer",
+    "category": "CMS & Website Builders"
+  },
+  {
+    "title": "WordPress",
+    "url": "https://wordpress.org",
+    "desc": "The world’s most popular open-source CMS.",
+    "icon": "wordpress",
+    "category": "CMS & Website Builders"
+  },
+  {
+    "title": "Elementor",
+    "url": "https://elementor.com",
+    "desc": "Drag-and-drop website builder for WordPress.",
+    "icon": "elementor",
+    "category": "CMS & Website Builders"
+  },
+  {
+    "title": "Divi",
+    "url": "https://www.elegantthemes.com/divi/",
+    "desc": "Visual WordPress theme and page builder.",
+    "icon": "divi",
+    "category": "CMS & Website Builders"
+  },
+  {
+    "title": "Joomla",
+    "url": "https://joomla.org",
+    "desc": "Flexible and powerful open-source CMS.",
+    "icon": "joomla",
+    "category": "CMS & Website Builders"
+  },
+  {
+    "title": "Typo3",
+    "url": "https://typo3.org",
+    "desc": "Enterprise open-source CMS for complex sites.",
+    "icon": "typo3",
+    "category": "CMS & Website Builders"
+  },
+  {
+    "title": "Squarespace",
+    "url": "https://squarespace.com",
+    "desc": "All-in-one website building and hosting platform.",
+    "icon": "squarespace",
+    "category": "CMS & Website Builders"
+  },
+  {
+    "title": "Drupal",
+    "url": "https://drupal.org",
+    "desc": "Flexible, scalable open-source CMS.",
+    "icon": "drupal",
+    "category": "CMS & Website Builders"
+  },
+  {
+    "title": "Wix",
+    "url": "https://wix.com",
+    "desc": "Easy-to-use website builder for everyone.",
+    "icon": "wix",
+    "category": "CMS & Website Builders"
+  },
+  {
+    "title": "Ghost",
+    "url": "https://ghost.org",
+    "desc": "Professional publishing platform for blogs.",
+    "icon": "ghost",
+    "category": "CMS & Website Builders"
+  },
+  {
+    "title": "Shopify",
+    "url": "https://shopify.com",
+    "desc": "Leading e-commerce platform for online stores.",
+    "icon": "shopify",
+    "category": "E-Commerce Platforms"
+  },
+  {
+    "title": "PrestaShop",
+    "url": "https://prestashop.com",
+    "desc": "Open-source e-commerce solution.",
+    "icon": "prestashop",
+    "category": "E-Commerce Platforms"
+  },
+  {
+    "title": "WooCommerce",
+    "url": "https://woocommerce.com",
+    "desc": "WordPress plugin for e-commerce stores.",
+    "icon": "woocommerce",
+    "category": "E-Commerce Platforms"
+  },
+  {
+    "title": "Magento",
+    "url": "https://magento.com",
+    "desc": "Powerful open-source e-commerce platform.",
+    "icon": "magento",
+    "category": "E-Commerce Platforms"
+  },
+  {
+    "title": "BigCommerce",
+    "url": "https://bigcommerce.com",
+    "desc": "E-commerce platform for fast-growing brands.",
+    "icon": "bigcommerce",
+    "category": "E-Commerce Platforms"
+  },
+  {
+    "title": "Figma",
+    "url": "https://figma.com",
+    "desc": "Collaborative interface design tool.",
+    "icon": "figma",
+    "category": "Web & Graphic Design"
+  },
+  {
+    "title": "Adobe XD",
+    "url": "https://adobe.com/products/xd.html",
+    "desc": "UI/UX design and prototyping tool by Adobe.",
+    "icon": "adobexd",
+    "category": "Web & Graphic Design"
+  },
+  {
+    "title": "Sketch",
+    "url": "https://sketch.com",
+    "desc": "Digital design toolkit for macOS.",
+    "icon": "sketch",
+    "category": "Web & Graphic Design"
+  },
+  {
+    "title": "Canva",
+    "url": "https://canva.com",
+    "desc": "Online graphic design platform for everyone.",
+    "icon": "canva",
+    "category": "Web & Graphic Design"
+  },
+  {
+    "title": "Adobe Photoshop",
+    "url": "https://adobe.com/products/photoshop.html",
+    "desc": "Industry-standard photo editing software.",
+    "icon": "adobephotoshop",
+    "category": "Web & Graphic Design"
+  },
+  {
+    "title": "Adobe Illustrator",
+    "url": "https://adobe.com/products/illustrator.html",
+    "desc": "Vector graphics and illustration software.",
+    "icon": "adobeillustrator",
+    "category": "Web & Graphic Design"
+  },
+  {
+    "title": "Affinity Designer",
+    "url": "https://affinity.serif.com/en-us/designer/",
+    "desc": "Professional graphic design software.",
+    "icon": "affinitydesigner",
+    "category": "Web & Graphic Design"
+  },
+  {
+    "title": "Miro",
+    "url": "https://miro.com",
+    "desc": "Online collaborative whiteboard platform.",
+    "icon": "miro",
+    "category": "Project & Task Management"
+  },
+  {
+    "title": "Netlify",
+    "url": "https://netlify.com",
+    "desc": "Cloud platform for web deployment and hosting.",
+    "icon": "netlify",
+    "category": "Hosting & Deployment"
+  },
+  {
+    "title": "Vercel",
+    "url": "https://vercel.com",
+    "desc": "Frontend cloud for static sites and serverless.",
+    "icon": "vercel",
+    "category": "Hosting & Deployment"
+  },
+  {
+    "title": "Hostinger",
+    "url": "https://hostinger.com",
+    "desc": "Affordable web hosting provider.",
+    "icon": "hostinger",
+    "category": "Hosting & Deployment"
+  },
+  {
+    "title": "Jira",
+    "url": "https://jira.com",
+    "desc": "Agile project management tool by Atlassian.",
+    "icon": "jira",
+    "category": "Project & Task Management"
+  },
+  {
+    "title": "Confluence",
+    "url": "https://confluence.atlassian.com",
+    "desc": "Team workspace and documentation by Atlassian.",
+    "icon": "confluence",
+    "category": "Project & Task Management"
+  },
+  {
+    "title": "Trello",
+    "url": "https://trello.com",
+    "desc": "Visual project management with boards and cards.",
+    "icon": "trello",
+    "category": "Project & Task Management"
+  },
+  {
+    "title": "Notion",
+    "url": "https://notion.so",
+    "desc": "All-in-one workspace for notes, docs, and tasks.",
+    "icon": "notion",
+    "category": "Project & Task Management"
+  },
+  {
+    "title": "ClickUp",
+    "url": "https://clickup.com",
+    "desc": "Productivity platform for teams and projects.",
+    "icon": "clickup",
+    "category": "Project & Task Management"
+  },
+  {
+    "title": "Asana",
+    "url": "https://asana.com",
+    "desc": "Work management platform for teams.",
+    "icon": "asana",
+    "category": "Project & Task Management"
+  },
+  {
+    "title": "Google Analytics",
+    "url": "https://analytics.google.com",
+    "desc": "Web analytics service by Google.",
+    "icon": "googleanalytics",
+    "category": "Analytics & SEO"
+  },
+  {
+    "title": "Ahrefs",
+    "url": "https://ahrefs.com",
+    "desc": "SEO toolset for backlinks and keyword research.",
+    "icon": "ahrefs",
+    "category": "Analytics & SEO"
+  },
+  {
+    "title": "SEMrush",
+    "url": "https://semrush.com",
+    "desc": "Online visibility and marketing analytics platform.",
+    "icon": "semrush",
+    "category": "Analytics & SEO"
+  },
+  {
+    "title": "Sistrix",
+    "url": "https://sistrix.com",
+    "desc": "SEO software for professionals.",
+    "icon": "sistrix",
+    "category": "Analytics & SEO"
+  },
+  {
+    "title": "Ubersuggest",
+    "url": "https://neilpatel.com/ubersuggest/",
+    "desc": "SEO tool for keyword research and site audit.",
+    "icon": "ubersuggest",
+    "category": "Analytics & SEO"
+  },
+  {
+    "title": "Seobility",
+    "url": "https://seobility.net",
+    "desc": "SEO software for better website optimization.",
+    "icon": "seobility",
+    "category": "Analytics & SEO"
+  },
+  {
+    "title": "GTmetrix",
+    "url": "https://gtmetrix.com",
+    "desc": "Website speed and performance testing tool.",
+    "icon": "gtmetrix",
+    "category": "Analytics & SEO"
+  },
+  {
+    "title": "PageSpeed Insights",
+    "url": "https://pagespeed.web.dev/",
+    "desc": "Google tool for analyzing site performance.",
+    "icon": "googlepagespeedinsights",
+    "category": "Analytics & SEO"
+  },
+  {
+    "title": "HubSpot",
+    "url": "https://hubspot.com",
+    "desc": "CRM platform for marketing, sales, and support.",
+    "icon": "hubspot",
+    "category": "Marketing Automation & CRM"
+  },
+  {
+    "title": "Hootsuite",
+    "url": "https://hootsuite.com",
+    "desc": "Social media management platform.",
+    "icon": "hootsuite",
+    "category": "Marketing Automation & CRM"
+  },
+  {
+    "title": "Mailchimp",
+    "url": "https://mailchimp.com",
+    "desc": "All-in-one email marketing platform.",
+    "icon": "mailchimp",
+    "category": "E-Mail Marketing"
+  },
+  {
+    "title": "MailUp",
+    "url": "https://mailup.com",
+    "desc": "Email and SMS marketing automation platform.",
+    "icon": "mailup",
+    "category": "E-Mail Marketing"
+  },
+  {
+    "title": "Rapidmail",
+    "url": "https://rapidmail.com",
+    "desc": "Email marketing software for newsletters.",
+    "icon": "rapidmail",
+    "category": "E-Mail Marketing"
+  },
+  {
+    "title": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "desc": "AI-powered code completion assistant.",
+    "icon": "github",
+    "category": "AI & Coding Assistants"
+  },
+  {
+    "title": "ChatGPT",
+    "url": "https://chat.openai.com/",
+    "desc": "Conversational AI assistant by OpenAI.",
+    "icon": "openai",
+    "category": "AI & Coding Assistants"
+  },
+  {
+    "title": "Replit",
+    "url": "https://replit.com",
+    "desc": "Collaborative online IDE and coding platform.",
+    "icon": "replit",
+    "category": "AI & Coding Assistants"
+  },
+  {
+    "title": "Strapi",
+    "url": "https://strapi.io",
+    "desc": "Open-source headless CMS for developers.",
+    "icon": "strapi",
+    "category": "Headless CMS"
+  },
+  {
+    "title": "Contentful",
+    "url": "https://contentful.com",
+    "desc": "API-first headless CMS for digital teams.",
+    "icon": "contentful",
+    "category": "Headless CMS"
+  },
+  {
+    "title": "Sanity",
+    "url": "https://sanity.io",
+    "desc": "Composable content cloud for teams.",
+    "icon": "sanity",
+    "category": "Headless CMS"
+  },
+  {
+    "title": "Neon",
+    "url": "https://neon.tech",
+    "desc": "Serverless Postgres database platform.",
+    "icon": "neon",
+    "category": "Databases & Backend"
+  },
+  {
+    "title": "Firebase",
+    "url": "https://firebase.google.com",
+    "desc": "Google’s platform for app backend and hosting.",
+    "icon": "firebase",
+    "category": "Databases & Backend"
+  },
+  {
+    "title": "Supabase",
+    "url": "https://supabase.com",
+    "desc": "Open-source Firebase alternative.",
+    "icon": "supabase",
+    "category": "Databases & Backend"
+  },
+  {
+    "title": "Prisma",
+    "url": "https://prisma.io",
+    "desc": "Next-generation Node.js and TypeScript ORM.",
+    "icon": "prisma",
+    "category": "ORM & Database Tools"
+  },
+  {
+    "title": "Drizzle",
+    "url": "https://orm.drizzle.team",
+    "desc": "TypeScript ORM that is light, performant and SQL-like.",
+    "icon": "drizzle",
+    "category": "ORM & Database Tools"
+  },
+  {
+    "title": "TypeORM",
+    "url": "https://typeorm.io",
+    "desc": "ORM for TypeScript and JavaScript (Node.js).",
+    "icon": "typeorm",
+    "category": "ORM & Database Tools"
+  },
+  {
+    "title": "Sequelize",
+    "url": "https://sequelize.org",
+    "desc": "Promise-based Node.js ORM for SQL databases.",
+    "icon": "sequelize",
+    "category": "ORM & Database Tools"
+  },
+  {
+    "title": "MikroORM",
+    "url": "https://mikro-orm.io",
+    "desc": "TypeScript ORM based on Data Mapper pattern.",
+    "icon": "mikroorm",
+    "category": "ORM & Database Tools"
+  },
+  {
+    "title": "Objection.js",
+    "url": "https://vincit.github.io/objection.js/",
+    "desc": "SQL-friendly ORM for Node.js built on Knex.js.",
+    "icon": "objectiondotjs",
+    "category": "ORM & Database Tools"
+  },
+  {
+    "title": "Hasura",
+    "url": "https://hasura.io",
+    "desc": "Instant GraphQL APIs on your data.",
+    "icon": "hasura",
+    "category": "API & GraphQL Tools"
+  },
+  {
+    "title": "PostgREST",
+    "url": "https://postgrest.org",
+    "desc": "REST API for any PostgreSQL database.",
+    "icon": "postgrest",
+    "category": "API & GraphQL Tools"
+  },
+  {
+    "title": "Apollo GraphQL",
+    "url": "https://apollographql.com",
+    "desc": "State management for local and remote data with GraphQL.",
+    "icon": "apollographql",
+    "category": "API & GraphQL Tools"
+  },
+  {
+    "title": "GraphQL Yoga",
+    "url": "https://the-guild.dev/graphql/yoga-server",
+    "desc": "Fully-featured GraphQL Server with easy setup.",
+    "icon": "graphql",
+    "category": "API & GraphQL Tools"
+  },
+  {
+    "title": "React.js",
+    "url": "https://react.dev",
+    "desc": "Popular JavaScript library for building UIs.",
+    "icon": "react",
+    "category": "JavaScript Frameworks & Libraries"
+  },
+  {
+    "title": "Next.js",
+    "url": "https://nextjs.org",
+    "desc": "React framework for production web apps.",
+    "icon": "nextdotjs",
+    "category": "JavaScript Frameworks & Libraries"
+  },
+  {
+    "title": "Vue.js",
+    "url": "https://vuejs.org",
+    "desc": "Progressive JavaScript framework for UIs.",
+    "icon": "vuejs",
+    "category": "JavaScript Frameworks & Libraries"
+  },
+  {
+    "title": "Nuxt.js",
+    "url": "https://nuxt.com",
+    "desc": "The intuitive Vue framework for web apps.",
+    "icon": "nuxtdotjs",
+    "category": "JavaScript Frameworks & Libraries"
+  },
+  {
+    "title": "Astro",
+    "url": "https://astro.build",
+    "desc": "All-in-one web framework for content sites.",
+    "icon": "astro",
+    "category": "JavaScript Frameworks & Libraries"
+  },
+  {
+    "title": "Svelte",
+    "url": "https://svelte.dev",
+    "desc": "Compiler that converts components into pure JavaScript.",
+    "icon": "svelte",
+    "category": "JavaScript Frameworks & Libraries"
+  },
+  {
+    "title": "Angular",
+    "url": "https://angular.io",
+    "desc": "Platform for building mobile and desktop applications.",
+    "icon": "angular",
+    "category": "JavaScript Frameworks & Libraries"
+  },
+  {
+    "title": "SolidJS",
+    "url": "https://solidjs.com",
+    "desc": "Simple and performant reactivity for building UIs.",
+    "icon": "solid",
+    "category": "JavaScript Frameworks & Libraries"
+  },
+  {
+    "title": "Ember.js",
+    "url": "https://emberjs.com",
+    "desc": "A productive web framework for ambitious web applications.",
+    "icon": "ember",
+    "category": "JavaScript Frameworks & Libraries"
+  },
+  {
+    "title": "Qwik",
+    "url": "https://qwik.builder.io",
+    "desc": "Instant-on web apps, auto-resumable without JavaScript.",
+    "icon": "qwik",
+    "category": "JavaScript Frameworks & Libraries"
+  },
+  {
+    "title": "Tailwind CSS",
+    "url": "https://tailwindcss.com",
+    "desc": "Utility-first CSS framework for rapid UI.",
+    "icon": "tailwindcss",
+    "category": "CSS Frameworks & UI Libraries"
+  },
+  {
+    "title": "Bootstrap",
+    "url": "https://getbootstrap.com",
+    "desc": "Popular CSS framework for responsive design.",
+    "icon": "bootstrap",
+    "category": "CSS Frameworks & UI Libraries"
+  },
+  {
+    "title": "Material UI",
+    "url": "https://mui.com",
+    "desc": "React UI library with Material Design.",
+    "icon": "mui",
+    "category": "CSS Frameworks & UI Libraries"
+  },
+  {
+    "title": "Chakra UI",
+    "url": "https://chakra-ui.com",
+    "desc": "Simple, modular React component library.",
+    "icon": "chakraui",
+    "category": "CSS Frameworks & UI Libraries"
+  },
+  {
+    "title": "Bulma",
+    "url": "https://bulma.io",
+    "desc": "Modern CSS framework based on Flexbox.",
+    "icon": "bulma",
+    "category": "CSS Frameworks & UI Libraries"
+  },
+  {
+    "title": "Ant Design",
+    "url": "https://ant.design",
+    "desc": "Enterprise UI design system for web.",
+    "icon": "antdesign",
+    "category": "CSS Frameworks & UI Libraries"
+  },
+  {
+    "title": "Foundation",
+    "url": "https://foundation.zurb.com",
+    "desc": "Professional responsive framework.",
+    "icon": "foundation",
+    "category": "CSS Frameworks & UI Libraries"
+  },
+  {
+    "title": "Prismic",
+    "url": "https://prismic.io",
+    "desc": "Headless CMS with visual content management.",
+    "icon": "prismic",
+    "category": "Headless CMS"
+  },
+  {
+    "title": "Directus",
+    "url": "https://directus.io",
+    "desc": "Instant REST+GraphQL APIs for your SQL database.",
+    "icon": "directus",
+    "category": "Headless CMS"
+  },
+  {
+    "title": "Storyblok",
+    "url": "https://storyblok.com",
+    "desc": "Headless CMS with visual editing for developers.",
+    "icon": "storyblok",
+    "category": "Headless CMS"
+  },
+  {
+    "title": "Plasmic",
+    "url": "https://plasmic.app",
+    "desc": "Visual web design platform integrated with code.",
+    "icon": "plasmic",
+    "category": "Headless CMS"
+  },
+  {
+    "title": "Adobe Premiere Pro",
+    "url": "https://adobe.com/products/premiere.html",
+    "desc": "Professional video editing software.",
+    "icon": "adobepremiere",
+    "category": "Video & Multimedia"
+  },
+  {
+    "title": "Final Cut Pro",
+    "url": "https://apple.com/final-cut-pro/",
+    "desc": "Professional video editing for macOS.",
+    "icon": "finalcutpro",
+    "category": "Video & Multimedia"
+  },
+  {
+    "title": "DaVinci Resolve",
+    "url": "https://blackmagicdesign.com/products/davinciresolve/",
+    "desc": "Professional video editing and color grading.",
+    "icon": "davinciresolve",
+    "category": "Video & Multimedia"
+  },
+  {
+    "title": "Camtasia",
+    "url": "https://camtasia.com",
+    "desc": "Screen recording and video editing software.",
+    "icon": "camtasia",
+    "category": "Video & Multimedia"
+  },
+  {
+    "title": "OBS Studio",
+    "url": "https://obsproject.com",
+    "desc": "Free and open source streaming software.",
+    "icon": "obsstudio",
+    "category": "Video & Multimedia"
+  },
+  {
+    "title": "Loom",
+    "url": "https://loom.com",
+    "desc": "Video messaging and screen recording tool.",
+    "icon": "loom",
+    "category": "Video & Multimedia"
+  },
+  {
+    "title": "Sentry",
+    "url": "https://sentry.io",
+    "desc": "Error tracking and performance monitoring platform.",
+    "icon": "sentry",
+    "category": "Performance & Monitoring"
+  },
+  {
+    "title": "Datadog",
+    "url": "https://datadoghq.com",
+    "desc": "Cloud monitoring and analytics platform.",
+    "icon": "datadog",
+    "category": "Performance & Monitoring"
+  },
+  {
+    "title": "New Relic",
+    "url": "https://newrelic.com",
+    "desc": "Application performance monitoring platform.",
+    "icon": "newrelic",
+    "category": "Performance & Monitoring"
+  },
+  {
+    "title": "LogRocket",
+    "url": "https://logrocket.com",
+    "desc": "Session replay and error tracking for web apps.",
+    "icon": "logrocket",
+    "category": "Performance & Monitoring"
+  },
+  {
+    "title": "Raygun",
+    "url": "https://raygun.com",
+    "desc": "Crash reporting and error monitoring software.",
+    "icon": "raygun",
+    "category": "Performance & Monitoring"
+  },
+  {
+    "title": "Monday.com",
+    "url": "https://monday.com",
+    "desc": "Work operating system for teams.",
+    "icon": "mondaycom",
+    "category": "Project & Task Management"
+  },
+  {
+    "title": "Smartsheet",
+    "url": "https://smartsheet.com",
+    "desc": "Work execution platform for dynamic work.",
+    "icon": "smartsheet",
+    "category": "Project & Task Management"
+  },
+  {
+    "title": "Podio",
+    "url": "https://podio.com",
+    "desc": "Collaboration and workflow management platform.",
+    "icon": "podio",
+    "category": "Project & Task Management"
+  },
+  {
+    "title": "ActiveCampaign",
+    "url": "https://activecampaign.com",
+    "desc": "CRM and marketing automation platform.",
+    "icon": "activecampaign",
+    "category": "Marketing Automation & CRM"
+  },
+  {
+    "title": "Salesforce",
+    "url": "https://salesforce.com",
+    "desc": "Leading CRM cloud platform for enterprise.",
+    "icon": "salesforce",
+    "category": "Marketing Automation & CRM"
+  },
+  {
+    "title": "Pipedrive",
+    "url": "https://pipedrive.com",
+    "desc": "Sales CRM for sales teams.",
+    "icon": "pipedrive",
+    "category": "Marketing Automation & CRM"
+  },
+  {
+    "title": "Constant Contact",
+    "url": "https://constantcontact.com",
+    "desc": "Email marketing and small business solutions.",
+    "icon": "constantcontact",
+    "category": "E-Mail Marketing"
+  },
+  {
+    "title": "ConvertKit",
+    "url": "https://convertkit.com",
+    "desc": "Creator platform for email marketing.",
+    "icon": "convertkit",
+    "category": "E-Mail Marketing"
+  },
+  {
+    "title": "Sendinblue",
+    "url": "https://brevo.com",
+    "desc": "All-in-one customer relationship platform.",
+    "icon": "brevo",
+    "category": "E-Mail Marketing"
+  },
+  {
+    "title": "Figma Plugins",
+    "url": "https://figma.com/plugins",
+    "desc": "Extend Figma with custom tools and integrations.",
+    "icon": "figma",
+    "category": "Web & Graphic Design"
+  },
+  {
+    "title": "Adobe InDesign",
+    "url": "https://adobe.com/products/indesign.html",
+    "desc": "Professional publishing and layout software.",
+    "icon": "adobeindesign",
+    "category": "Web & Graphic Design"
+  },
+  {
+    "title": "Gimp",
+    "url": "https://gimp.org",
+    "desc": "Free and open-source raster graphics editor.",
+    "icon": "gimp",
+    "category": "Web & Graphic Design"
+  },
+  {
+    "title": "Inkscape",
+    "url": "https://inkscape.org",
+    "desc": "Free and open-source vector graphics editor.",
+    "icon": "inkscape",
+    "category": "Web & Graphic Design"
+  },
+  {
+    "title": "DigitalOcean",
+    "url": "https://digitalocean.com",
+    "desc": "Cloud computing platform for app deployment.",
+    "icon": "digitalocean",
+    "category": "Hosting & Deployment"
+  },
+  {
+    "title": "AWS",
+    "url": "https://aws.amazon.com",
+    "desc": "Amazon Web Services cloud infrastructure.",
+    "icon": "amazonwebservices",
+    "category": "Hosting & Deployment"
+  },
+  {
+    "title": "Google Cloud",
+    "url": "https://cloud.google.com",
+    "desc": "Google's cloud computing platform.",
+    "icon": "googlecloud",
+    "category": "Hosting & Deployment"
+  },
+  {
+    "title": "Heroku",
+    "url": "https://heroku.com",
+    "desc": "Cloud platform for building and deploying apps.",
+    "icon": "heroku",
+    "category": "Hosting & Deployment"
+  },
+  {
+    "title": "Railway",
+    "url": "https://railway.app",
+    "desc": "Modern deployment platform for any language.",
+    "icon": "railway",
+    "category": "Hosting & Deployment"
+  },
+  {
+    "title": "Render",
+    "url": "https://render.com",
+    "desc": "Cloud platform to build and run all your apps.",
+    "icon": "render",
+    "category": "Hosting & Deployment"
+  },
+  {
+    "title": "MongoDB",
+    "url": "https://mongodb.com",
+    "desc": "Developer data platform with MongoDB database.",
+    "icon": "mongodb",
+    "category": "Databases & Backend"
+  },
+  {
+    "title": "PostgreSQL",
+    "url": "https://postgresql.org",
+    "desc": "Powerful open-source relational database.",
+    "icon": "postgresql",
+    "category": "Databases & Backend"
+  },
+  {
+    "title": "MySQL",
+    "url": "https://mysql.com",
+    "desc": "Popular open-source relational database.",
+    "icon": "mysql",
+    "category": "Databases & Backend"
+  },
+  {
+    "title": "Redis",
+    "url": "https://redis.io",
+    "desc": "In-memory data structure store for caching.",
+    "icon": "redis",
+    "category": "Databases & Backend"
+  },
+  {
+    "title": "Elasticsearch",
+    "url": "https://elastic.co",
+    "desc": "Search and analytics engine for data.",
+    "icon": "elastic",
+    "category": "Databases & Backend"
+  },
+  {
+    "title": "GitHub",
+    "url": "https://github.com",
+    "desc": "Platform for code hosting and collaboration.",
+    "icon": "github",
+    "category": "Project & Task Management"
+  },
+  {
+    "title": "GitLab",
+    "url": "https://gitlab.com",
+    "desc": "DevOps platform with git repository management.",
+    "icon": "gitlab",
+    "category": "Project & Task Management"
+  },
+  {
+    "title": "Bitbucket",
+    "url": "https://bitbucket.org",
+    "desc": "Git repository management by Atlassian.",
+    "icon": "bitbucket",
+    "category": "Project & Task Management"
+  },
+  {
+    "title": "Claude",
+    "url": "https://claude.ai",
+    "desc": "AI assistant by Anthropic.",
+    "icon": "anthropic",
+    "category": "AI & Coding Assistants"
+  },
+  {
+    "title": "Codeium",
+    "url": "https://codeium.com",
+    "desc": "Free AI code completion and search.",
+    "icon": "codeium",
+    "category": "AI & Coding Assistants"
+  },
+  {
+    "title": "Copilot X",
+    "url": "https://github.com/features/copilot-x",
+    "desc": "AI-powered code review and pull request tools.",
+    "icon": "github",
+    "category": "AI & Coding Assistants"
+  },
+  {
+    "title": "TypeScript",
+    "url": "https://typescriptlang.org",
+    "desc": "Typed superset of JavaScript for large-scale apps.",
+    "icon": "typescript",
+    "category": "JavaScript Frameworks & Libraries"
+  },
+  {
+    "title": "Gatsby",
+    "url": "https://gatsbyjs.com",
+    "desc": "React-based static site generator.",
+    "icon": "gatsby",
+    "category": "JavaScript Frameworks & Libraries"
+  },
+  {
+    "title": "Remix",
+    "url": "https://remix.run",
+    "desc": "Full stack web framework built on React Router.",
+    "icon": "remix",
+    "category": "JavaScript Frameworks & Libraries"
+  },
+  {
+    "title": "SvelteKit",
+    "url": "https://kit.svelte.dev",
+    "desc": "Full-stack framework for building Svelte apps.",
+    "icon": "svelte",
+    "category": "JavaScript Frameworks & Libraries"
+  },
+  {
+    "title": "NestJS",
+    "url": "https://nestjs.com",
+    "desc": "Progressive Node.js framework for APIs.",
+    "icon": "nestjs",
+    "category": "JavaScript Frameworks & Libraries"
+  },
+  {
+    "title": "Express.js",
+    "url": "https://expressjs.com",
+    "desc": "Minimalist Node.js web framework.",
+    "icon": "express",
+    "category": "JavaScript Frameworks & Libraries"
+  },
+  {
+    "title": "Figma to Code",
+    "url": "https://figmaplugins.com",
+    "desc": "Generate code from Figma designs.",
+    "icon": "figma",
+    "category": "Web & Graphic Design"
+  },
+  {
+    "title": "Penpot",
+    "url": "https://penpot.app",
+    "desc": "Open-source design and prototyping platform.",
+    "icon": "penpot",
+    "category": "Web & Graphic Design"
+  }
 ]

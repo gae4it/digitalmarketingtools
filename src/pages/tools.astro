@@ -6,6 +6,7 @@ import bookmarks from "@/data/bookmarks.json";
 import Pagetitle from "@/components/pagetitle.astro";
 
 import ToolCard from "@/components/ToolCard.astro";
+import FilterButton from "@/components/FilterButton.astro";
 
 // Extract unique categories
 const categories = ["All", ...Array.from(new Set(bookmarks.map(tool => tool.category))).sort()];
@@ -21,12 +22,11 @@ const categories = ["All", ...Array.from(new Set(bookmarks.map(tool => tool.cate
     <!-- Category Filter Buttons -->
     <div class="flex flex-wrap gap-2 justify-center mt-8 mb-8">
       {categories.map(category => (
-        <button
-          class="category-btn px-4 py-2 rounded-full border font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-white dark:bg-[#1a2636] text-gray-700 dark:text-gray-200 border-gray-300 dark:border-gray-700 hover:bg-blue-50 dark:hover:bg-blue-900"
-          data-category={category}
-        >
-          {category}
-        </button>
+        <FilterButton 
+          label={category} 
+          dataAttribute="data-category" 
+          value={category} 
+        />
       ))}
     </div>
 
@@ -46,7 +46,7 @@ const categories = ["All", ...Array.from(new Set(bookmarks.map(tool => tool.cate
         selectedCategory = category;
         
         // Update button styles
-        document.querySelectorAll('.category-btn').forEach(btn => {
+        document.querySelectorAll('.filter-btn').forEach(btn => {
           const btnCategory = btn.getAttribute('data-category');
           if (btnCategory === category) {
             btn.classList.add('bg-blue-600', 'text-white', 'border-blue-600');
@@ -70,8 +70,8 @@ const categories = ["All", ...Array.from(new Set(bookmarks.map(tool => tool.cate
         });
       }
 
-      // Add click listeners to category buttons
-      document.querySelectorAll('.category-btn').forEach(btn => {
+      // Add click listeners to filter buttons
+      document.querySelectorAll('.filter-btn').forEach(btn => {
         btn.addEventListener('click', () => {
           const category = btn.getAttribute('data-category');
           if (category) updateFilter(category);

@@ -1,0 +1,11 @@
+---
+// FilterButton.astro
+// Reusable filter button component for blog and tools pages
+const { label, dataAttribute, value } = Astro.props;
+---
+<button 
+  {...{[dataAttribute]: value}}
+  class="filter-btn px-4 py-2 rounded-full border font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-white dark:bg-[#1a2636] text-gray-700 dark:text-gray-200 border-gray-300 dark:border-gray-700 hover:bg-blue-50 dark:hover:bg-blue-900 cursor-pointer"
+>
+  {label}
+</button>
