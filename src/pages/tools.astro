@@ -7,6 +7,8 @@ import Pagetitle from "@/components/pagetitle.astro";
 
 import ToolCard from "@/components/ToolCard.astro";
 
+// Extract unique categories
+const categories = ["All", ...Array.from(new Set(bookmarks.map(tool => tool.category))).sort()];
 ---
 
 <Layout title="Tools">
@@ -16,15 +18,68 @@ import ToolCard from "@/components/ToolCard.astro";
       <Fragment slot="desc">Here an amazing collection of tools</Fragment>
     </Pagetitle>
 
-    <div class="flex flex-wrap justify-center gap-8 mt-12">
-      {
-        bookmarks.map((tool) => (
-          <div class="w-full sm:w-[45%] md:w-[22%] max-w-xs mb-6 flex">
-            <ToolCard tool={tool} />
-          </div>
-        ))
-      }
+    <!-- Category Filter Buttons -->
+    <div class="flex flex-wrap gap-2 justify-center mt-8 mb-8">
+      {categories.map(category => (
+        <button
+          class="category-btn px-4 py-2 rounded-full border font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-white dark:bg-[#1a2636] text-gray-700 dark:text-gray-200 border-gray-300 dark:border-gray-700 hover:bg-blue-50 dark:hover:bg-blue-900"
+          data-category={category}
+        >
+          {category}
+        </button>
+      ))}
     </div>
 
+    <!-- Tool Cards -->
+    <div class="flex flex-wrap justify-center gap-8 mt-4">
+      {bookmarks.map((tool) => (
+        <div class="tool-card w-full sm:w-[45%] md:w-[22%] max-w-xs mb-6 flex" data-category={tool.category}>
+          <ToolCard tool={tool} />
+        </div>
+      ))}
+    </div>
+
+    <script>
+      let selectedCategory = "All";
+
+      function updateFilter(category: string) {
+        selectedCategory = category;
+        
+        // Update button styles
+        document.querySelectorAll('.category-btn').forEach(btn => {
+          const btnCategory = btn.getAttribute('data-category');
+          if (btnCategory === category) {
+            btn.classList.add('bg-blue-600', 'text-white', 'border-blue-600');
+            btn.classList.remove('bg-white', 'dark:bg-[#1a2636]', 'text-gray-700', 'dark:text-gray-200', 'border-gray-300', 'dark:border-gray-700');
+            btn.setAttribute('aria-pressed', 'true');
+          } else {
+            btn.classList.remove('bg-blue-600', 'text-white', 'border-blue-600');
+            btn.classList.add('bg-white', 'dark:bg-[#1a2636]', 'text-gray-700', 'dark:text-gray-200', 'border-gray-300', 'dark:border-gray-700');
+            btn.setAttribute('aria-pressed', 'false');
+          }
+        });
+
+        // Filter tool cards
+        document.querySelectorAll('.tool-card').forEach(card => {
+          const cardCategory = card.getAttribute('data-category');
+          if (category === 'All' || cardCategory === category) {
+            (card as HTMLElement).style.display = 'flex';
+          } else {
+            (card as HTMLElement).style.display = 'none';
+          }
+        });
+      }
+
+      // Add click listeners to category buttons
+      document.querySelectorAll('.category-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const category = btn.getAttribute('data-category');
+          if (category) updateFilter(category);
+        });
+      });
+
+      // Initialize with "All" selected
+      updateFilter('All');
+    </script>
   </Container>
 </Layout>
